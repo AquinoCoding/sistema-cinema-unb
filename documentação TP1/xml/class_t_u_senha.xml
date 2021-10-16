@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_senha" kind="class" language="C++" prot="public">
+    <compoundname>TUSenha</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_senha_1aabbf4cc53825634e3e5e75af53585eb0" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSenha::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;d&amp;vPy$$$&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="178" column="18" bodyfile="testeDominio.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_senha_1a44683d14808dd5ff285e205a22a54a21" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSenha::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;d&amp;vPyth@n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="179" column="18" bodyfile="testeDominio.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_senha_1aaee18683af4fa5c4d2a36acbbdf23646" prot="private" static="no" mutable="no">
+        <type><ref refid="class_senha" kindref="compound">Senha</ref> *</type>
+        <definition>Senha* TUSenha::senha</definition>
+        <argsstring></argsstring>
+        <name>senha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="180" column="11" bodyfile="testeDominio.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_senha_1a4592f811180e082e63f968554358131a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUSenha::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="181" column="9" bodyfile="testeDominio.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_senha_1a1a1dabe034b25a899150c95acbc0684c" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSenha::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="188" column="22" bodyfile="testeDominio.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_senha_1a71eb0d9005b2d36da6a8530c0dd31842" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSenha::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="189" column="22" bodyfile="testeDominio.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_senha_1a7d93cb955314fc312e53fa343ac36db9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSenha::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="182" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_senha_1ad2db467a8267bd45951fc94a8ad019aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSenha::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="183" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_senha_1ae7c698463537e21a999f9bd4bcc53364" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSenha::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="184" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_senha_1a91cf111a7e86c9bded3ddd4d3a4d2d80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSenha::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="185" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_senha_1ac5ddea52ed42b828961f343b82074125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUSenha::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="190" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_senha" kindref="compound">Senha</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="176" column="1" bodyfile="testeDominio.h" bodystart="176" bodyend="191"/>
+    <listofallmembers>
+      <member refid="class_t_u_senha_1a4592f811180e082e63f968554358131a" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>estado</name></member>
+      <member refid="class_t_u_senha_1a71eb0d9005b2d36da6a8530c0dd31842" prot="public" virt="non-virtual"><scope>TUSenha</scope><name>FALHA</name></member>
+      <member refid="class_t_u_senha_1ac5ddea52ed42b828961f343b82074125" prot="public" virt="non-virtual"><scope>TUSenha</scope><name>run</name></member>
+      <member refid="class_t_u_senha_1aaee18683af4fa5c4d2a36acbbdf23646" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>senha</name></member>
+      <member refid="class_t_u_senha_1a7d93cb955314fc312e53fa343ac36db9" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>setUp</name></member>
+      <member refid="class_t_u_senha_1a1a1dabe034b25a899150c95acbc0684c" prot="public" virt="non-virtual"><scope>TUSenha</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_senha_1ad2db467a8267bd45951fc94a8ad019aa" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>tearDown</name></member>
+      <member refid="class_t_u_senha_1a91cf111a7e86c9bded3ddd4d3a4d2d80" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_senha_1ae7c698463537e21a999f9bd4bcc53364" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_senha_1a44683d14808dd5ff285e205a22a54a21" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_senha_1aabbf4cc53825634e3e5e75af53585eb0" prot="private" virt="non-virtual"><scope>TUSenha</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

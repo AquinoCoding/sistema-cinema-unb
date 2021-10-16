@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compound refid="class_capacidade" kind="class"><name>Capacidade</name>
+    <member refid="class_capacidade_1a0d04dac776531755704cf65b832b2d7e" kind="variable"><name>capacidade</name></member>
+    <member refid="class_capacidade_1a11585a2582f7a0e62c8b393eb7e7156c" kind="function"><name>validar</name></member>
+    <member refid="class_capacidade_1aa98030ae7d73acb72b60581d27ef06c8" kind="function"><name>setValor</name></member>
+    <member refid="class_capacidade_1a120757c32a742387645a104a15c4840b" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_cargo" kind="class"><name>Cargo</name>
+    <member refid="class_cargo_1a5b0d637764fe6e17847589fc30591e4b" kind="variable"><name>cargo</name></member>
+    <member refid="class_cargo_1ae978d6765d0cd78f5129cd2f00fdeb73" kind="function"><name>validar</name></member>
+    <member refid="class_cargo_1a7c0baba5f16f762747f5f4114501b192" kind="function"><name>setValor</name></member>
+    <member refid="class_cargo_1aa9f165bde3107337762056687abf0a87" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_classificacao" kind="class"><name>Classificacao</name>
+    <member refid="class_classificacao_1afb3bc013602b4293e3d601cc64a40e24" kind="variable"><name>classificacao</name></member>
+    <member refid="class_classificacao_1ae928df8f114c61e27326d37859625e85" kind="function"><name>validar</name></member>
+    <member refid="class_classificacao_1a547e95715f1619faacca7f29f1c6b1a0" kind="function"><name>setValor</name></member>
+    <member refid="class_classificacao_1a1918df0db5ec8924aaef6c8751a9ca9c" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_codigo" kind="class"><name>Codigo</name>
+    <member refid="class_codigo_1a13505d54d829b35a37ed8bd62a84f0cf" kind="variable"><name>codigo</name></member>
+    <member refid="class_codigo_1ac5f23076fb06cb67121050014b861fa8" kind="function"><name>validar</name></member>
+    <member refid="class_codigo_1afdc4d9c6e42358cd0d48001d4c671584" kind="function"><name>setValor</name></member>
+    <member refid="class_codigo_1ae7dad73e010b3760cbd9310336c19aa2" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_data" kind="class"><name>Data</name>
+    <member refid="class_data_1ae3e630247f60efbc69086933fefa933a" kind="variable"><name>data</name></member>
+    <member refid="class_data_1a490773498b1ce1437a969feeb868e276" kind="function"><name>validar</name></member>
+    <member refid="class_data_1aee3a6598533a28a3f446c5f8ecb63c0f" kind="function"><name>setValor</name></member>
+    <member refid="class_data_1a2d040be2799c23a0a3f745613a70bb43" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_email" kind="class"><name>Email</name>
+    <member refid="class_email_1ac0a91a44652858a0c5178ef836ec9c93" kind="variable"><name>email</name></member>
+    <member refid="class_email_1af4528d675a54130bd84f4c10744cdd32" kind="function"><name>validar</name></member>
+    <member refid="class_email_1a6816d28f5db9ae31cf9520011c346f3f" kind="function"><name>setValor</name></member>
+    <member refid="class_email_1a573b7a1f21085bbb13cf6ec4dd802ecc" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_horario" kind="class"><name>Horario</name>
+    <member refid="class_horario_1a39e0ce1195fa93cb1812d977e3388c0c" kind="variable"><name>LIMITE_MIN</name></member>
+    <member refid="class_horario_1aff73aaada7c91743baa9352eb74d9599" kind="variable"><name>LIMITE_MAX</name></member>
+    <member refid="class_horario_1a2a09ce8672ea9353ff614865855f1e36" kind="variable"><name>horario</name></member>
+    <member refid="class_horario_1aa1deeb2d5ae106918980fb7bcbaf2e0f" kind="function"><name>validar</name></member>
+    <member refid="class_horario_1a13b81b83b94cb983589199fa9f01aca5" kind="function"><name>setValor</name></member>
+    <member refid="class_horario_1aa279893c92801d8547e94d75992648da" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_matricula" kind="class"><name>Matricula</name>
+    <member refid="class_matricula_1a518764253e12c3fdfcbda9146afee765" kind="variable"><name>matricula</name></member>
+    <member refid="class_matricula_1a48000fa857a5f668ffa8d0587314ec8f" kind="function"><name>validar</name></member>
+    <member refid="class_matricula_1aa1579f32769878ed7ff8ec1d0242de42" kind="function"><name>setValor</name></member>
+    <member refid="class_matricula_1ad10d71edeea24c66a6f7a28c2db6df30" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_nome" kind="class"><name>Nome</name>
+    <member refid="class_nome_1ac3f8577d2bfac039271cc13c1c570df8" kind="variable"><name>nome</name></member>
+    <member refid="class_nome_1ac7288ba646f6b5245eb1f2d47604ca34" kind="function"><name>validar</name></member>
+    <member refid="class_nome_1aaad6a1ad8718cce8dde090a435c3cd81" kind="function"><name>setValor</name></member>
+    <member refid="class_nome_1ac8881234a0e2d0ddff4fb689ceb256eb" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_participante" kind="class"><name>Participante</name>
+    <member refid="class_participante_1abfa2db12553060fde2c3b08a05383416" kind="variable"><name>matricula</name></member>
+    <member refid="class_participante_1a990220345a5c5716b69467486abafee1" kind="variable"><name>nome</name></member>
+    <member refid="class_participante_1ad9ebf7eab489f460108d441eada2c0ac" kind="variable"><name>sobrenome</name></member>
+    <member refid="class_participante_1abf65ec9e852ed6758b390d1feed9cf19" kind="variable"><name>email</name></member>
+    <member refid="class_participante_1a22979ca203ce3c4502e8793d94f2180c" kind="variable"><name>telefone</name></member>
+    <member refid="class_participante_1aafa4ea6dc8cd046aad6fe3a9d16c20ec" kind="variable"><name>senha</name></member>
+    <member refid="class_participante_1a8cb58c99be8b069d97225f37bc3bda24" kind="variable"><name>cargo</name></member>
+    <member refid="class_participante_1a82486ee047039b1e4b210b0f503a8862" kind="function"><name>setMatricula</name></member>
+    <member refid="class_participante_1a45008c741ad0982362b667e500e75628" kind="function"><name>getMatricula</name></member>
+    <member refid="class_participante_1aea997e520fdd6978988200d5eab9c092" kind="function"><name>setNome</name></member>
+    <member refid="class_participante_1a6c6d207b5fb93c08e5db2f1804de4521" kind="function"><name>getNome</name></member>
+    <member refid="class_participante_1a2b8a6a7ad9daba071ed18b792c63ba24" kind="function"><name>setSobrenome</name></member>
+    <member refid="class_participante_1ae5662b68035c9e809bb1f6d04b67d590" kind="function"><name>getSobrenome</name></member>
+    <member refid="class_participante_1a7e66bbe10da5a81f76856f9b331050aa" kind="function"><name>setEmail</name></member>
+    <member refid="class_participante_1a4636d840a4fce89d208b314e0dfcff77" kind="function"><name>getEmail</name></member>
+    <member refid="class_participante_1aeaa513faa6731a27def3f70233a818a1" kind="function"><name>setTelefone</name></member>
+    <member refid="class_participante_1ab8087671d1aa4f95de4d2caa7174604f" kind="function"><name>getTelefone</name></member>
+    <member refid="class_participante_1a96e8eed3323cffcd31ea40df6db98587" kind="function"><name>setSenha</name></member>
+    <member refid="class_participante_1ae447071446dd60b7c551fbe48558fefc" kind="function"><name>getSenha</name></member>
+    <member refid="class_participante_1af2f682976dc491170722a8acaef49f2f" kind="function"><name>setCargo</name></member>
+    <member refid="class_participante_1ab8e3acff31dd0e3dac0cc00acdca8b37" kind="function"><name>getCargo</name></member>
+  </compound>
+  <compound refid="class_peca" kind="class"><name>Peca</name>
+    <member refid="class_peca_1ae4b9894fe7b9e9c1cde325d86a9e6f9b" kind="variable"><name>identificador</name></member>
+    <member refid="class_peca_1aadaa889c063ce8d6043091ded284971e" kind="variable"><name>nome</name></member>
+    <member refid="class_peca_1a260cf2cb45cde96e377779aa0a2dc8b1" kind="variable"><name>tipo</name></member>
+    <member refid="class_peca_1a6fbbcd013aa4b891a13045d5baacfead" kind="variable"><name>classificacao</name></member>
+    <member refid="class_peca_1ab1395cfdda59c8c12227d2c5c662db05" kind="function"><name>setIdcodigo</name></member>
+    <member refid="class_peca_1aed1739e7347fd9e084a01bf415f6867c" kind="function"><name>getIdcodigo</name></member>
+    <member refid="class_peca_1a09525a6dee3c8d4f0a1000e4c1d18551" kind="function"><name>setNome</name></member>
+    <member refid="class_peca_1ab05eb28476f0f8e8928e178ca1694943" kind="function"><name>getNome</name></member>
+    <member refid="class_peca_1a54364628e9979467ffe21a4eba016762" kind="function"><name>setTipo</name></member>
+    <member refid="class_peca_1a7af7522a71bf55103816e6a5a9a678a9" kind="function"><name>getTipo</name></member>
+    <member refid="class_peca_1a82d6cb1676ff7061afd634bd7fc3b6aa" kind="function"><name>setClassificacao</name></member>
+    <member refid="class_peca_1a4717d2198d3286e3ee63c93edb549477" kind="function"><name>getClassificacao</name></member>
+  </compound>
+  <compound refid="class_sala" kind="class"><name>Sala</name>
+    <member refid="class_sala_1a28dd56b57f593f0a1bb1f8d6debd8d4c" kind="variable"><name>identificador</name></member>
+    <member refid="class_sala_1a8a52e6ca6dabe6577c0416fc28fa05df" kind="variable"><name>nome</name></member>
+    <member refid="class_sala_1a5d64bd464748b1394174cad4188ca4bc" kind="variable"><name>capacidade</name></member>
+    <member refid="class_sala_1aff5c7af285965ad550990f659bb38a33" kind="function"><name>setIdcodigo</name></member>
+    <member refid="class_sala_1a6dd82ac90e186a58879c8e26d65c0be3" kind="function"><name>getIdcodigo</name></member>
+    <member refid="class_sala_1a971fd26d3812cb842fee54a0f0b48a8c" kind="function"><name>setNome</name></member>
+    <member refid="class_sala_1ab7ac4034f57aed11ef4a2d32e1fa367c" kind="function"><name>getNome</name></member>
+    <member refid="class_sala_1a8de9a76ccbc39f01ff21de0ee3064823" kind="function"><name>setCapacidade</name></member>
+    <member refid="class_sala_1a06301e49da161b9449ad9ebe9ab20d4c" kind="function"><name>getCapacidade</name></member>
+  </compound>
+  <compound refid="class_senha" kind="class"><name>Senha</name>
+    <member refid="class_senha_1a259a9fdd2b1c37168aba468cb7a434fc" kind="variable"><name>senha</name></member>
+    <member refid="class_senha_1aaa7915a0345b20b757ffda90b55e5709" kind="function"><name>validar</name></member>
+    <member refid="class_senha_1a379d90c214392ccb42aaf49e3d39e112" kind="function"><name>setValor</name></member>
+    <member refid="class_senha_1ae0b4d9dfac80da4dc9c4965a9648e6b5" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_sessao" kind="class"><name>Sessao</name>
+    <member refid="class_sessao_1a3949c15c34bbdb6f649257f90bdc28fc" kind="variable"><name>identificador</name></member>
+    <member refid="class_sessao_1aec4194b905914a37b5a0a1dd4441a062" kind="variable"><name>data</name></member>
+    <member refid="class_sessao_1a268333dfd47f5a67593dcc492841ce09" kind="variable"><name>horario</name></member>
+    <member refid="class_sessao_1ab9459efeca8f421e3002568d32c153e6" kind="function"><name>setIdcodigo</name></member>
+    <member refid="class_sessao_1a6e6bd6c9979eb02415b0157542b23313" kind="function"><name>getIdcodigo</name></member>
+    <member refid="class_sessao_1a72e4249a3f19dce9727673771234d9a2" kind="function"><name>setData</name></member>
+    <member refid="class_sessao_1ae51e4500a2fc57774d00aa40b1970b35" kind="function"><name>getData</name></member>
+    <member refid="class_sessao_1a34798289eb568f68afc7399fe7a8a6e4" kind="function"><name>setHorario</name></member>
+    <member refid="class_sessao_1ac52e381054f6ac57e641e57a32ee1240" kind="function"><name>getHorario</name></member>
+  </compound>
+  <compound refid="class_telefone" kind="class"><name>Telefone</name>
+    <member refid="class_telefone_1a5dc3515f0bfdda2139c0f44e7a2a1538" kind="variable"><name>telefone</name></member>
+    <member refid="class_telefone_1a32743a4965d46d33d72cdcdd2c1f1180" kind="function"><name>validar</name></member>
+    <member refid="class_telefone_1acda75eb982b4e867380983fb4661bd46" kind="function"><name>setValor</name></member>
+    <member refid="class_telefone_1a8d9d6134cfb5ec929ab9b42d3be39f85" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_tipo" kind="class"><name>Tipo</name>
+    <member refid="class_tipo_1ab0018174fb2075cf4feefbf26176182a" kind="variable"><name>tipo</name></member>
+    <member refid="class_tipo_1ad2f461d5f04a1d5d4f254037fb2406f8" kind="function"><name>validar</name></member>
+    <member refid="class_tipo_1a5a393b60d69853c719722dc9740eef9a" kind="function"><name>setValor</name></member>
+    <member refid="class_tipo_1a3a5cbab6488d323b75f24727c2a5c73e" kind="function"><name>getValor</name></member>
+  </compound>
+  <compound refid="class_t_u_capacidade" kind="class"><name>TUCapacidade</name>
+    <member refid="class_t_u_capacidade_1a54e1a2e640ddb32eef9b0ab77d5c6aa2" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_capacidade_1a0a1f1f96a58b00bbfd0809222b4b45f8" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_capacidade_1a2fd67e2077d5dcc67b560deb85f5ff32" kind="variable"><name>capacidade</name></member>
+    <member refid="class_t_u_capacidade_1a45a992684121bc1d19c6e68a0efe40ea" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_capacidade_1af16e1c49db2a6f7cc8ee1673aeec50f0" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_capacidade_1a4045425a53d2962ed36f50dbe49d3bfa" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_capacidade_1a18bf24fb9aa2a21d6b86ff3aed5a889e" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_capacidade_1a68332456fd1207a184ea1da260152ceb" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_capacidade_1a8dc625384db591a25cadb4bd03ea6c50" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_capacidade_1a975d0908784e507728aba402c665a2cf" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_capacidade_1af657a9f98b932769afd3d2611f1122e9" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_cargo" kind="class"><name>TUCargo</name>
+    <member refid="class_t_u_cargo_1ade4d31eb6d40591d2c188ad5274eeae5" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_cargo_1ac28433aafe93369e5e74127b84efced4" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_cargo_1a84b6e55630ac6789dcdb71319343026a" kind="variable"><name>cargo</name></member>
+    <member refid="class_t_u_cargo_1a48fd917909619aa838f91944569a104c" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_cargo_1ac57310556c785f4b45e28419656f5071" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_cargo_1a211c0d9eb86c9a76b3992328fef1939b" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_cargo_1a6b475d913d2576582c601177a991fb82" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_cargo_1aa146f0086f8e9f397e15838866d15569" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_cargo_1a26d502977ff9748c01160abdd2a713a9" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_cargo_1a6ba02aae8e76bc6a1c411482f57ad2aa" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_cargo_1a66aa9218bf445745728c0203cd1fdff1" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_classificacao" kind="class"><name>TUClassificacao</name>
+    <member refid="class_t_u_classificacao_1a8ab204eca8bbda0df6e01c2d1756dcd5" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_classificacao_1a2f51b59c5135d11411b325ed21f2574a" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_classificacao_1adb261305ad938ec10bf7ef108ac43a95" kind="variable"><name>classificacao</name></member>
+    <member refid="class_t_u_classificacao_1af368de04c2d25066bb79e69c699bd0c9" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_classificacao_1a03fa6a0ff5a266928169add4717b0a29" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_classificacao_1af64e16fd32cf05f826abd9dc42d8fcb2" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_classificacao_1a46cbab649f98fdc7e11044ac3f3528b1" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_classificacao_1ad9121478b854dcfe9734cad095fe2733" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_classificacao_1a55fa64956885b658923d03ba09fd08fc" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_classificacao_1a75aba657c132fb8cb62026ba6ff6d872" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_classificacao_1aeb6b7bd75f6dafc1e4420466a989821e" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_codigo" kind="class"><name>TUCodigo</name>
+    <member refid="class_t_u_codigo_1a94c3b4d18554fea47cb4ba16a23976d0" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_codigo_1a7d5291c25d95e1a7f1a940a4f65d2e5c" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_codigo_1a7fac6fdbdcfb17606c6b12bd65840c5c" kind="variable"><name>codigo</name></member>
+    <member refid="class_t_u_codigo_1a165392df9e64ae08b737b0b7728d5526" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_codigo_1ae74fd939ebced94047b47878406f53d1" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_codigo_1abff6dd7b04006df40462c76f8b769123" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_codigo_1a5a7caf4ace9b7efdfdd06984f6b763d0" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_codigo_1a91920ce947913dbf05c7723bb8aa4b3e" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_codigo_1afafff58fc1ba1fc6bbb522702e0d883b" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_codigo_1aa7677f6c65fee7ab474be49f5ebc09a7" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_codigo_1a4e6994bcde0011cdf0b0bb7a2c4d94d9" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_data" kind="class"><name>TUData</name>
+    <member refid="class_t_u_data_1a38d0e70711b343baa241d39b540b116e" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_data_1ab8f5e45c128e5c2ec22338a5c989047b" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_data_1a42fa1681bbc952c78ac87daddaa2a19e" kind="variable"><name>data</name></member>
+    <member refid="class_t_u_data_1a0cb8ffcff4e399d78b55c3dd99b1fba0" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_data_1a59be2c38007b733030111a5aadfb4517" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_data_1a691cfac8c7fc4b3da149ef868de44f35" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_data_1ad7ba7fc9bc0f91a353d382d88a6a68d6" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_data_1af1bd12ac9d5c75e69d4961de5b11a1e3" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_data_1a3d428fb448141230a6fdd7e92d481a9e" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_data_1a174347e886cf8edf75593e4237a9aadf" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_data_1a4fd95b821fa6d55bdc82be6f3a3cbef2" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_email" kind="class"><name>TUEmail</name>
+    <member refid="class_t_u_email_1a8b76dac50d32556ae8ee814663afbd38" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_email_1abbca88edeba954054fc4e9cf02ecad1e" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_email_1ad1f8492c97e7487e8d40fa1ec142f985" kind="variable"><name>email</name></member>
+    <member refid="class_t_u_email_1a31a56056a53cee84af861846c0c2beb6" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_email_1a8b39fe0050c65de0c2968f4c4e164dbc" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_email_1af85d3036fdfc515f28636f9e5e60a98d" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_email_1a936ec1e46b227a5ff7f142a674a63865" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_email_1a3f22ed133358ef1ee1716df3a259029d" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_email_1ad036a22630678aa7715e43af039ad1cb" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_email_1a87db412ba8223bfd99b783bb065c2b70" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_email_1a8d43b68b8b80ada3b28d72d35df9a34f" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_horario" kind="class"><name>TUHorario</name>
+    <member refid="class_t_u_horario_1ac17fa3dc6a7991ed4258ea2c0cd96766" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_horario_1ac07c1883119b8a0f1febde8d0040522f" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_horario_1a89dda884512ad027370b2864b926014b" kind="variable"><name>horario</name></member>
+    <member refid="class_t_u_horario_1a51513afb884c43c00816e138e06ca0b4" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_horario_1a58974951411c48a2ef16b505b65ee991" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_horario_1a93d6fabcab04d0ac3bc695bbf2e4cf1b" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_horario_1a6a247be3fdcdd25b3368550b12eb66b3" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_horario_1a8b79ac212598c6cc2106ca56e61cfc05" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_horario_1af3198652a0405a8ff99fad561994ddbf" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_horario_1a962a836ff96157b11d6b4e280db1a312" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_horario_1ac6e790d002f6854f57a6a85f9a3c9eeb" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_matricula" kind="class"><name>TUMatricula</name>
+    <member refid="class_t_u_matricula_1ace940ce9d5f102eb3ab4215b8d421330" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_matricula_1a212f1bd0f151f47d73b1554f100810ee" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_matricula_1a2ff874b6030a95595e378d686d601455" kind="variable"><name>matricula</name></member>
+    <member refid="class_t_u_matricula_1a2818e825bddc3a85beeea54bcd5f85bd" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_matricula_1a2b3fc30669b5743c6431fb255ae511f2" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_matricula_1a81091ba8c092641c988750c957c82232" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_matricula_1ac33a865f5001ef63a496ec760b75ff5c" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_matricula_1aaf83c73e1adad49c5c045e49514e8653" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_matricula_1a5f807343da4cf974b3c63e3aee78901c" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_matricula_1ab2b1404cc7156dffdf268973ddb45174" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_matricula_1a415f6c2f19be6cb4db4f4e61525e56c6" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_nome" kind="class"><name>TUNome</name>
+    <member refid="class_t_u_nome_1a21c53585527d2557609e7ad4b3c93ede" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_nome_1ab2aa9cda1dea4b8046374c3fc688bea3" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_nome_1ab927a85df6f9d50b3daa959d8d03e4df" kind="variable"><name>nome</name></member>
+    <member refid="class_t_u_nome_1a73a5b28449569afacc6036bfd7956258" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_nome_1af1d3faa5a4f6a302f96d193478f3013b" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_nome_1a50bf8928bc5e773eaf15a2fb5eb2f065" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_nome_1a0dcaf2c9638d4c3c33c4d850478fb8bb" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_nome_1ac1d89a52ca70ca4d3ade1500a050d311" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_nome_1afbaaf0c6d286b9154dee4e7f6d0d6b80" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_nome_1a14b5bdefaf97626dae748f869729bf4c" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_nome_1ae20734cb15f71890e57aff02a00f6313" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_participante" kind="class"><name>TUParticipante</name>
+    <member refid="class_t_u_participante_1a3585e911bcdb6fd8da99328a1b8c57d4" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_participante_1ab3ad631d889f0f6129db955abbcdd277" kind="variable"><name>VALOR_VALIDO1</name></member>
+    <member refid="class_t_u_participante_1a503934ea85ff7c8b64bf964382e0205c" kind="variable"><name>VALOR_VALIDO2</name></member>
+    <member refid="class_t_u_participante_1a8236e210f8912ece964d5655d823e60e" kind="variable"><name>VALOR_VALIDO3</name></member>
+    <member refid="class_t_u_participante_1acdfc43d677de5255f42ce09b6ea37795" kind="variable"><name>VALOR_VALIDO4</name></member>
+    <member refid="class_t_u_participante_1a862ee3fa4f73f968ff2d521a9be36390" kind="variable"><name>VALOR_VALIDO5</name></member>
+    <member refid="class_t_u_participante_1a95aa91b0f582f76a4f7e1e2c9535c1e7" kind="variable"><name>participante</name></member>
+    <member refid="class_t_u_participante_1a638ea0f10187b619599346f299e6301a" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_participante_1aefa921acc25ac750cf892fcc987cafec" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_participante_1a7d68d97f9ec0b883dc79ae5aa0957505" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_participante_1a5d5fbb16b5eec1e8a69722752b8d57aa" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_participante_1ad1e7ac7a42b199a07ef25a44359aab6f" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_participante_1a0fd425c912a8025ab189aa232ef1c985" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_participante_1a87f0ae9263577d53edfa6f9be690c4a4" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_peca" kind="class"><name>TUPeca</name>
+    <member refid="class_t_u_peca_1a9781e3120a306591bd0133e54c6760e4" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_peca_1a0c571c8cdfe4d7655e1fb97530c54b28" kind="variable"><name>VALOR_VALIDO1</name></member>
+    <member refid="class_t_u_peca_1ac6727e7f3495eb6da28553f4ae28c844" kind="variable"><name>VALOR_VALIDO2</name></member>
+    <member refid="class_t_u_peca_1adc582b43e76d0368e6713df042dafbbb" kind="variable"><name>VALOR_VALIDO3</name></member>
+    <member refid="class_t_u_peca_1ac5f2e30935bd9b63e63e22f90a19b63c" kind="variable"><name>peca</name></member>
+    <member refid="class_t_u_peca_1a868623f30ae48fb1b1f3f0ac174d12ee" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_peca_1a15a762c8479c6f0411ec7225d6cd3440" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_peca_1aec186b80ba6cdd927cefcd96840ed3fb" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_peca_1aad589bf62328722ae82143d7241de5d1" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_peca_1a17571c9173602eb4ae9314bf2a91fd9d" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_peca_1a2713da0812ce195a48fdd81c8e4b9d17" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_peca_1ad148ece485ba44318023e52d8109772a" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_sala" kind="class"><name>TUSala</name>
+    <member refid="class_t_u_sala_1af3b87478c1a056b9e461c878ea8ccb04" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_sala_1a3f00448af687a83a0ffcb108a9904fec" kind="variable"><name>VALOR_VALIDO1</name></member>
+    <member refid="class_t_u_sala_1adc86da885f32008771883b01f00d9e09" kind="variable"><name>sala</name></member>
+    <member refid="class_t_u_sala_1a58c2989a1428538529f9ca1fc54700fe" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_sala_1a000b1b5d2def4fe2f531b88a65fde352" kind="variable"><name>VALOR_VALIDO2</name></member>
+    <member refid="class_t_u_sala_1aa56de320cb9be358c4174f619dbdecb2" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_sala_1a8ed11d57333fbff1d8fcfb4a60a6fafd" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_sala_1ada5741cd5165e707828fddba398d4850" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_sala_1a3c47d0dbbcc25268596e6dc45ba8b6bf" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_sala_1af6fb1f1d94b6f044f922501b04025acb" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_sala_1a3bbffbbbba58dc65f3a2fa5576576eef" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_senha" kind="class"><name>TUSenha</name>
+    <member refid="class_t_u_senha_1aabbf4cc53825634e3e5e75af53585eb0" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_senha_1a44683d14808dd5ff285e205a22a54a21" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_senha_1aaee18683af4fa5c4d2a36acbbdf23646" kind="variable"><name>senha</name></member>
+    <member refid="class_t_u_senha_1a4592f811180e082e63f968554358131a" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_senha_1a1a1dabe034b25a899150c95acbc0684c" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_senha_1a71eb0d9005b2d36da6a8530c0dd31842" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_senha_1a7d93cb955314fc312e53fa343ac36db9" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_senha_1ad2db467a8267bd45951fc94a8ad019aa" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_senha_1ae7c698463537e21a999f9bd4bcc53364" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_senha_1a91cf111a7e86c9bded3ddd4d3a4d2d80" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_senha_1ac5ddea52ed42b828961f343b82074125" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_sessao" kind="class"><name>TUSessao</name>
+    <member refid="class_t_u_sessao_1afcfe7f54d19869a192c2a61150c7eb9c" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_sessao_1a74d6265d4893a44ccebcb2a99b0eb576" kind="variable"><name>VALOR_VALIDO1</name></member>
+    <member refid="class_t_u_sessao_1a2cc93fe74162d3bbff7cb2870c56a2b9" kind="variable"><name>VALOR_VALIDO2</name></member>
+    <member refid="class_t_u_sessao_1a7351a1384c0af3226c61faf12bf0b158" kind="variable"><name>sessao</name></member>
+    <member refid="class_t_u_sessao_1a680ccebd0bc435850f0e83259b5c4c57" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_sessao_1a03506f1cbd2dc9cb5ec98e0b44b651bf" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_sessao_1ad873b713232b6caeddea909743531689" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_sessao_1aafcdb6df9038aa13d14f1ee62487ff3e" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_sessao_1af6ae8c714d5af9dae09e2e32e5ddcf38" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_sessao_1a1a0790d5362e1b9b11ff3de038631dcc" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_sessao_1a8b7da304bdc9a78148ee32742b65ec31" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_telefone" kind="class"><name>TUTelefone</name>
+    <member refid="class_t_u_telefone_1a813557dc68e9334e5a0e5a865b63eb87" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_telefone_1a78817a9a951dfd434aa211ba1e544e5d" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_telefone_1a26b10dce0fa6a8d31dd9e62369246f12" kind="variable"><name>telefone</name></member>
+    <member refid="class_t_u_telefone_1a4c4396db66fd1beacb5de6277d9bb326" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_telefone_1a26c0d033f5372652434fdcb5b054c16e" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_telefone_1a6bfda7ef5af9266bd5ca1b246002f3c7" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_telefone_1abd50876e26d8a3e267c988237cc1797c" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_telefone_1abbe6b4d36f86cbfdafef63a28adaf29e" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_telefone_1aace3a2414225d7972c4c0c315db53ab0" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_telefone_1a049469c47f3cc50598dacaef7066e5b3" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_telefone_1abdf98e48a737ab44ad59cc63f26d6788" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_t_u_tipo" kind="class"><name>TUTipo</name>
+    <member refid="class_t_u_tipo_1a4a1c78dc9800ce122070f93161e8a0b6" kind="variable"><name>VALOR_VALIDO</name></member>
+    <member refid="class_t_u_tipo_1a6632a65474b5212d2e4ac880c27ad08e" kind="variable"><name>VALOR_INVALIDO</name></member>
+    <member refid="class_t_u_tipo_1a029bb057231f2da25d5af3d1f07bd7b5" kind="variable"><name>tipo</name></member>
+    <member refid="class_t_u_tipo_1acf1fa52da398ef2c737280410db37b68" kind="variable"><name>estado</name></member>
+    <member refid="class_t_u_tipo_1a8631ebe13af1b8c0381019fb721eaaf6" kind="variable"><name>SUCESSO</name></member>
+    <member refid="class_t_u_tipo_1a870d70988878e0659e469458dca85687" kind="variable"><name>FALHA</name></member>
+    <member refid="class_t_u_tipo_1a78c933e2d9c389948f5c8748984f6560" kind="function"><name>setUp</name></member>
+    <member refid="class_t_u_tipo_1a42bf484e8503de4d57c8ed742b08448a" kind="function"><name>tearDown</name></member>
+    <member refid="class_t_u_tipo_1a45810a319f621ebc61cd80db87bb5b5a" kind="function"><name>testarCenarioSucesso</name></member>
+    <member refid="class_t_u_tipo_1afb0205a91eab470561bf2fc0c007785e" kind="function"><name>testarCenarioFalha</name></member>
+    <member refid="class_t_u_tipo_1adebaec0a3f92b5a428c6f6765bf932d0" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="dominios_8h" kind="file"><name>dominios.h</name>
+  </compound>
+  <compound refid="entidades_8h" kind="file"><name>entidades.h</name>
+  </compound>
+  <compound refid="teste_dominio_8h" kind="file"><name>testeDominio.h</name>
+  </compound>
+  <compound refid="teste_entidade_8h" kind="file"><name>testeEntidade.h</name>
+    <member refid="teste_entidade_8h_1a1f5e5e91efecda4e6652251e2709982a" kind="define"><name>TESTES_H_INCLUDED</name></member>
+  </compound>
+</doxygenindex>

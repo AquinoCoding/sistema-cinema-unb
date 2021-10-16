@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_codigo" kind="class" language="C++" prot="public">
+    <compoundname>Codigo</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_codigo_1a13505d54d829b35a37ed8bd62a84f0cf" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Codigo::codigo</definition>
+        <argsstring></argsstring>
+        <name>codigo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="102" column="16" bodyfile="dominios.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_codigo_1ac5f23076fb06cb67121050014b861fa8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Codigo::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="103" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_codigo_1afdc4d9c6e42358cd0d48001d4c671584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Codigo::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codigo.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código inválido caso o valor fornecido não esteja de acordo com as regras de formato. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="110" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_codigo_1ae7dad73e010b3760cbd9310336c19aa2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Codigo::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Código válido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="114" column="16" bodyfile="dominios.h" bodystart="114" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio Código. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_codigo" kindref="compound">Codigo</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor é válido caso contenha seis caracteres sendo os dois primeiros letras maiúsculas e os quatro últimos dígitos de 0 a 9. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="100" column="1" bodyfile="dominios.h" bodystart="100" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_codigo_1a13505d54d829b35a37ed8bd62a84f0cf" prot="private" virt="non-virtual"><scope>Codigo</scope><name>codigo</name></member>
+      <member refid="class_codigo_1ae7dad73e010b3760cbd9310336c19aa2" prot="public" virt="non-virtual"><scope>Codigo</scope><name>getValor</name></member>
+      <member refid="class_codigo_1afdc4d9c6e42358cd0d48001d4c671584" prot="public" virt="non-virtual"><scope>Codigo</scope><name>setValor</name></member>
+      <member refid="class_codigo_1ac5f23076fb06cb67121050014b861fa8" prot="private" virt="non-virtual"><scope>Codigo</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

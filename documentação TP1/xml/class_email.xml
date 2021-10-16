@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_email" kind="class" language="C++" prot="public">
+    <compoundname>Email</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_email_1ac0a91a44652858a0c5178ef836ec9c93" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Email::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="160" column="16" bodyfile="dominios.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_email_1af4528d675a54130bd84f4c10744cdd32" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Email::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="161" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_email_1a6816d28f5db9ae31cf9520011c346f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Email::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>do endereço de e-mail.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>E-mail inválido caso o valor fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="168" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_email_1a573b7a1f21085bbb13cf6ec4dd802ecc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Email::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>E-mail válido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="172" column="16" bodyfile="dominios.h" bodystart="172" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_email" kindref="compound">Email</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_email" kindref="compound">Email</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor válido é composto por duas partes: parte local (pode ter até 64 caracteres) e parte domínio (pode ter até 255 caracteres).</para>
+</listitem><listitem><para>Os caracteres podem ser alfa numéricos, sendo letras maiúsculas ou minúsculas ou dígitos de 0 a 9, bem como os seguintes caracteres: !#$%&amp;&apos;*+-/=?^_&apos;{|}~</para>
+</listitem><listitem><para>O caractere pode ser ponto (.), desde que não seja o primeiro ou o último caractere e que não ocorra em sequência. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="158" column="1" bodyfile="dominios.h" bodystart="158" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_email_1ac0a91a44652858a0c5178ef836ec9c93" prot="private" virt="non-virtual"><scope>Email</scope><name>email</name></member>
+      <member refid="class_email_1a573b7a1f21085bbb13cf6ec4dd802ecc" prot="public" virt="non-virtual"><scope>Email</scope><name>getValor</name></member>
+      <member refid="class_email_1a6816d28f5db9ae31cf9520011c346f3f" prot="public" virt="non-virtual"><scope>Email</scope><name>setValor</name></member>
+      <member refid="class_email_1af4528d675a54130bd84f4c10744cdd32" prot="private" virt="non-virtual"><scope>Email</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

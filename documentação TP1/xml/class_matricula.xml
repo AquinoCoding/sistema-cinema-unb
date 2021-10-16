@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_matricula" kind="class" language="C++" prot="public">
+    <compoundname>Matricula</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_matricula_1a518764253e12c3fdfcbda9146afee765" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Matricula::matricula</definition>
+        <argsstring></argsstring>
+        <name>matricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="219" column="16" bodyfile="dominios.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_matricula_1a48000fa857a5f668ffa8d0587314ec8f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Matricula::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="220" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_matricula_1aa1579f32769878ed7ff8ec1d0242de42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Matricula::setValor</definition>
+        <argsstring>(string matricula)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+          <declname>matricula</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Número</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de matrícula com nove dígitos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de matrícula inválido caso o valor fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="227" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_matricula_1ad10d71edeea24c66a6f7a28c2db6df30" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Matricula::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Matrícula válida. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="231" column="16" bodyfile="dominios.h" bodystart="231" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio Matrícula. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_matricula" kindref="compound">Matricula</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor é válido caso contenha cinco dígitos de 0 a 9.</para>
+</listitem><listitem><para>Não podem existir dígitos duplicados. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="217" column="1" bodyfile="dominios.h" bodystart="217" bodyend="234"/>
+    <listofallmembers>
+      <member refid="class_matricula_1ad10d71edeea24c66a6f7a28c2db6df30" prot="public" virt="non-virtual"><scope>Matricula</scope><name>getValor</name></member>
+      <member refid="class_matricula_1a518764253e12c3fdfcbda9146afee765" prot="private" virt="non-virtual"><scope>Matricula</scope><name>matricula</name></member>
+      <member refid="class_matricula_1aa1579f32769878ed7ff8ec1d0242de42" prot="public" virt="non-virtual"><scope>Matricula</scope><name>setValor</name></member>
+      <member refid="class_matricula_1a48000fa857a5f668ffa8d0587314ec8f" prot="private" virt="non-virtual"><scope>Matricula</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

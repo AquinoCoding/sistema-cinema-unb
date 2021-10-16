@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_tipo" kind="class" language="C++" prot="public">
+    <compoundname>TUTipo</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_tipo_1a4a1c78dc9800ce122070f93161e8a0b6" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUTipo::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;drama&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="214" column="18" bodyfile="testeDominio.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_tipo_1a6632a65474b5212d2e4ac880c27ad08e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUTipo::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;DRAMAS&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="215" column="18" bodyfile="testeDominio.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_tipo_1a029bb057231f2da25d5af3d1f07bd7b5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tipo" kindref="compound">Tipo</ref> *</type>
+        <definition>Tipo* TUTipo::tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="216" column="10" bodyfile="testeDominio.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_tipo_1acf1fa52da398ef2c737280410db37b68" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUTipo::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="217" column="9" bodyfile="testeDominio.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_tipo_1a8631ebe13af1b8c0381019fb721eaaf6" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUTipo::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="224" column="22" bodyfile="testeDominio.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_tipo_1a870d70988878e0659e469458dca85687" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUTipo::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="225" column="22" bodyfile="testeDominio.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_tipo_1a78c933e2d9c389948f5c8748984f6560" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTipo::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="218" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_tipo_1a42bf484e8503de4d57c8ed742b08448a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTipo::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="219" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_tipo_1a45810a319f621ebc61cd80db87bb5b5a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTipo::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="220" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_tipo_1afb0205a91eab470561bf2fc0c007785e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTipo::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="221" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_tipo_1adebaec0a3f92b5a428c6f6765bf932d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUTipo::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="226" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_tipo" kindref="compound">Tipo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="212" column="1" bodyfile="testeDominio.h" bodystart="212" bodyend="227"/>
+    <listofallmembers>
+      <member refid="class_t_u_tipo_1acf1fa52da398ef2c737280410db37b68" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>estado</name></member>
+      <member refid="class_t_u_tipo_1a870d70988878e0659e469458dca85687" prot="public" virt="non-virtual"><scope>TUTipo</scope><name>FALHA</name></member>
+      <member refid="class_t_u_tipo_1adebaec0a3f92b5a428c6f6765bf932d0" prot="public" virt="non-virtual"><scope>TUTipo</scope><name>run</name></member>
+      <member refid="class_t_u_tipo_1a78c933e2d9c389948f5c8748984f6560" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>setUp</name></member>
+      <member refid="class_t_u_tipo_1a8631ebe13af1b8c0381019fb721eaaf6" prot="public" virt="non-virtual"><scope>TUTipo</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_tipo_1a42bf484e8503de4d57c8ed742b08448a" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>tearDown</name></member>
+      <member refid="class_t_u_tipo_1afb0205a91eab470561bf2fc0c007785e" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_tipo_1a45810a319f621ebc61cd80db87bb5b5a" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_tipo_1a029bb057231f2da25d5af3d1f07bd7b5" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>tipo</name></member>
+      <member refid="class_t_u_tipo_1a6632a65474b5212d2e4ac880c27ad08e" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_tipo_1a4a1c78dc9800ce122070f93161e8a0b6" prot="private" virt="non-virtual"><scope>TUTipo</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

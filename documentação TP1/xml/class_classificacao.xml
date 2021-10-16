@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_classificacao" kind="class" language="C++" prot="public">
+    <compoundname>Classificacao</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_classificacao_1afb3bc013602b4293e3d601cc64a40e24" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Classificacao::classificacao</definition>
+        <argsstring></argsstring>
+        <name>classificacao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="74" column="16" bodyfile="dominios.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_classificacao_1ae928df8f114c61e27326d37859625e85" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Classificacao::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="75" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_classificacao_1a547e95715f1619faacca7f29f1c6b1a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Classificacao::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>classificaçao.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Classificação é inválida caso não seja palavra presente nas regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="82" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classificacao_1a1918df0db5ec8924aaef6c8751a9ca9c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Classificacao::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Classificação. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="86" column="16" bodyfile="dominios.h" bodystart="86" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio Classificacão. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_classificacao" kindref="compound">Classificacao</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor é válido caso seja igual a um dos seguintes valores: 10, 12, 14, 16 ou 18. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="72" column="1" bodyfile="dominios.h" bodystart="72" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_classificacao_1afb3bc013602b4293e3d601cc64a40e24" prot="private" virt="non-virtual"><scope>Classificacao</scope><name>classificacao</name></member>
+      <member refid="class_classificacao_1a1918df0db5ec8924aaef6c8751a9ca9c" prot="public" virt="non-virtual"><scope>Classificacao</scope><name>getValor</name></member>
+      <member refid="class_classificacao_1a547e95715f1619faacca7f29f1c6b1a0" prot="public" virt="non-virtual"><scope>Classificacao</scope><name>setValor</name></member>
+      <member refid="class_classificacao_1ae928df8f114c61e27326d37859625e85" prot="private" virt="non-virtual"><scope>Classificacao</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

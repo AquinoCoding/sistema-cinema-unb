@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_data" kind="class" language="C++" prot="public">
+    <compoundname>TUData</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_data_1a38d0e70711b343baa241d39b540b116e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUData::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;29/02/2000&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="88" column="18" bodyfile="testeDominio.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_data_1ab8f5e45c128e5c2ec22338a5c989047b" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUData::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;29/02/2001&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="89" column="18" bodyfile="testeDominio.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_data_1a42fa1681bbc952c78ac87daddaa2a19e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_data" kindref="compound">Data</ref> *</type>
+        <definition>Data* TUData::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="90" column="10" bodyfile="testeDominio.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_data_1a0cb8ffcff4e399d78b55c3dd99b1fba0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUData::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="91" column="9" bodyfile="testeDominio.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_data_1a59be2c38007b733030111a5aadfb4517" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUData::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="98" column="22" bodyfile="testeDominio.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_data_1a691cfac8c7fc4b3da149ef868de44f35" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUData::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="99" column="22" bodyfile="testeDominio.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_data_1ad7ba7fc9bc0f91a353d382d88a6a68d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUData::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="92" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_data_1af1bd12ac9d5c75e69d4961de5b11a1e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUData::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_data_1a3d428fb448141230a6fdd7e92d481a9e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUData::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="94" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_data_1a174347e886cf8edf75593e4237a9aadf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUData::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="95" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_data_1a4fd95b821fa6d55bdc82be6f3a3cbef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUData::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="100" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_data" kindref="compound">Data</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="86" column="1" bodyfile="testeDominio.h" bodystart="86" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_t_u_data_1a42fa1681bbc952c78ac87daddaa2a19e" prot="private" virt="non-virtual"><scope>TUData</scope><name>data</name></member>
+      <member refid="class_t_u_data_1a0cb8ffcff4e399d78b55c3dd99b1fba0" prot="private" virt="non-virtual"><scope>TUData</scope><name>estado</name></member>
+      <member refid="class_t_u_data_1a691cfac8c7fc4b3da149ef868de44f35" prot="public" virt="non-virtual"><scope>TUData</scope><name>FALHA</name></member>
+      <member refid="class_t_u_data_1a4fd95b821fa6d55bdc82be6f3a3cbef2" prot="public" virt="non-virtual"><scope>TUData</scope><name>run</name></member>
+      <member refid="class_t_u_data_1ad7ba7fc9bc0f91a353d382d88a6a68d6" prot="private" virt="non-virtual"><scope>TUData</scope><name>setUp</name></member>
+      <member refid="class_t_u_data_1a59be2c38007b733030111a5aadfb4517" prot="public" virt="non-virtual"><scope>TUData</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_data_1af1bd12ac9d5c75e69d4961de5b11a1e3" prot="private" virt="non-virtual"><scope>TUData</scope><name>tearDown</name></member>
+      <member refid="class_t_u_data_1a174347e886cf8edf75593e4237a9aadf" prot="private" virt="non-virtual"><scope>TUData</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_data_1a3d428fb448141230a6fdd7e92d481a9e" prot="private" virt="non-virtual"><scope>TUData</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_data_1ab8f5e45c128e5c2ec22338a5c989047b" prot="private" virt="non-virtual"><scope>TUData</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_data_1a38d0e70711b343baa241d39b540b116e" prot="private" virt="non-virtual"><scope>TUData</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_peca" kind="class" language="C++" prot="public">
+    <compoundname>TUPeca</compoundname>
+    <includes refid="teste_entidade_8h" local="no">testeEntidade.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_peca_1a9781e3120a306591bd0133e54c6760e4" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUPeca::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;AA0000&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="35" column="23" bodyfile="testeEntidade.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1a0c571c8cdfe4d7655e1fb97530c54b28" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUPeca::VALOR_VALIDO1</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO1</name>
+        <initializer>= &quot;Orochi&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="36" column="23" bodyfile="testeEntidade.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1ac6727e7f3495eb6da28553f4ae28c844" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUPeca::VALOR_VALIDO2</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO2</name>
+        <initializer>= &quot;drama&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="37" column="23" bodyfile="testeEntidade.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1adc582b43e76d0368e6713df042dafbbb" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUPeca::VALOR_VALIDO3</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO3</name>
+        <initializer>= &quot;10&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="38" column="23" bodyfile="testeEntidade.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1ac5f2e30935bd9b63e63e22f90a19b63c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_peca" kindref="compound">Peca</ref> *</type>
+        <definition>Peca* TUPeca::peca</definition>
+        <argsstring></argsstring>
+        <name>peca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="39" column="15" bodyfile="testeEntidade.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1a868623f30ae48fb1b1f3f0ac174d12ee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUPeca::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="40" column="14" bodyfile="testeEntidade.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_peca_1a15a762c8479c6f0411ec7225d6cd3440" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUPeca::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="45" column="27" bodyfile="testeEntidade.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_peca_1aec186b80ba6cdd927cefcd96840ed3fb" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUPeca::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="46" column="27" bodyfile="testeEntidade.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_peca_1aad589bf62328722ae82143d7241de5d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUPeca::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="41" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_peca_1a17571c9173602eb4ae9314bf2a91fd9d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUPeca::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="42" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_peca_1a2713da0812ce195a48fdd81c8e4b9d17" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUPeca::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="43" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_peca_1ad148ece485ba44318023e52d8109772a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUPeca::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="47" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário da entidade Peça. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A entidade Peça valida: identificador, tipo e classificação. </para>
+    </detaileddescription>
+    <location file="testeEntidade.h" line="33" column="1" bodyfile="testeEntidade.h" bodystart="33" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_t_u_peca_1a868623f30ae48fb1b1f3f0ac174d12ee" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>estado</name></member>
+      <member refid="class_t_u_peca_1aec186b80ba6cdd927cefcd96840ed3fb" prot="public" virt="non-virtual"><scope>TUPeca</scope><name>FALHA</name></member>
+      <member refid="class_t_u_peca_1ac5f2e30935bd9b63e63e22f90a19b63c" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>peca</name></member>
+      <member refid="class_t_u_peca_1ad148ece485ba44318023e52d8109772a" prot="public" virt="non-virtual"><scope>TUPeca</scope><name>run</name></member>
+      <member refid="class_t_u_peca_1aad589bf62328722ae82143d7241de5d1" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>setUp</name></member>
+      <member refid="class_t_u_peca_1a15a762c8479c6f0411ec7225d6cd3440" prot="public" virt="non-virtual"><scope>TUPeca</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_peca_1a17571c9173602eb4ae9314bf2a91fd9d" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>tearDown</name></member>
+      <member refid="class_t_u_peca_1a2713da0812ce195a48fdd81c8e4b9d17" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_peca_1a9781e3120a306591bd0133e54c6760e4" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>VALOR_VALIDO</name></member>
+      <member refid="class_t_u_peca_1a0c571c8cdfe4d7655e1fb97530c54b28" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>VALOR_VALIDO1</name></member>
+      <member refid="class_t_u_peca_1ac6727e7f3495eb6da28553f4ae28c844" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>VALOR_VALIDO2</name></member>
+      <member refid="class_t_u_peca_1adc582b43e76d0368e6713df042dafbbb" prot="private" virt="non-virtual"><scope>TUPeca</scope><name>VALOR_VALIDO3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

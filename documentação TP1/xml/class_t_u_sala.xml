@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_sala" kind="class" language="C++" prot="public">
+    <compoundname>TUSala</compoundname>
+    <includes refid="teste_entidade_8h" local="no">testeEntidade.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_sala_1af3b87478c1a056b9e461c878ea8ccb04" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSala::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;AA0000&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="74" column="23" bodyfile="testeEntidade.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sala_1a3f00448af687a83a0ffcb108a9904fec" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSala::VALOR_VALIDO1</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO1</name>
+        <initializer>= &quot;MBAPPE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="75" column="23" bodyfile="testeEntidade.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sala_1adc86da885f32008771883b01f00d9e09" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sala" kindref="compound">Sala</ref> *</type>
+        <definition>Sala* TUSala::sala</definition>
+        <argsstring></argsstring>
+        <name>sala</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="77" column="15" bodyfile="testeEntidade.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sala_1a58c2989a1428538529f9ca1fc54700fe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUSala::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="78" column="14" bodyfile="testeEntidade.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_t_u_sala_1a000b1b5d2def4fe2f531b88a65fde352" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float TUSala::VALOR_VALIDO2</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO2</name>
+        <initializer>= 100.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="76" column="29" bodyfile="testeEntidade.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_sala_1aa56de320cb9be358c4174f619dbdecb2" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSala::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="83" column="27" bodyfile="testeEntidade.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sala_1a8ed11d57333fbff1d8fcfb4a60a6fafd" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSala::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="84" column="27" bodyfile="testeEntidade.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_sala_1ada5741cd5165e707828fddba398d4850" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSala::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="79" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_sala_1a3c47d0dbbcc25268596e6dc45ba8b6bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSala::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="80" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_sala_1af6fb1f1d94b6f044f922501b04025acb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSala::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="81" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_sala_1a3bbffbbbba58dc65f3a2fa5576576eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUSala::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="85" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário da entidade <ref refid="class_sala" kindref="compound">Sala</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A entidade <ref refid="class_sala" kindref="compound">Sala</ref> valida: identificador, nome e capacidade. </para>
+    </detaileddescription>
+    <location file="testeEntidade.h" line="72" column="1" bodyfile="testeEntidade.h" bodystart="72" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_t_u_sala_1a58c2989a1428538529f9ca1fc54700fe" prot="private" virt="non-virtual"><scope>TUSala</scope><name>estado</name></member>
+      <member refid="class_t_u_sala_1a8ed11d57333fbff1d8fcfb4a60a6fafd" prot="public" virt="non-virtual"><scope>TUSala</scope><name>FALHA</name></member>
+      <member refid="class_t_u_sala_1a3bbffbbbba58dc65f3a2fa5576576eef" prot="public" virt="non-virtual"><scope>TUSala</scope><name>run</name></member>
+      <member refid="class_t_u_sala_1adc86da885f32008771883b01f00d9e09" prot="private" virt="non-virtual"><scope>TUSala</scope><name>sala</name></member>
+      <member refid="class_t_u_sala_1ada5741cd5165e707828fddba398d4850" prot="private" virt="non-virtual"><scope>TUSala</scope><name>setUp</name></member>
+      <member refid="class_t_u_sala_1aa56de320cb9be358c4174f619dbdecb2" prot="public" virt="non-virtual"><scope>TUSala</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_sala_1a3c47d0dbbcc25268596e6dc45ba8b6bf" prot="private" virt="non-virtual"><scope>TUSala</scope><name>tearDown</name></member>
+      <member refid="class_t_u_sala_1af6fb1f1d94b6f044f922501b04025acb" prot="private" virt="non-virtual"><scope>TUSala</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_sala_1af3b87478c1a056b9e461c878ea8ccb04" prot="private" virt="non-virtual"><scope>TUSala</scope><name>VALOR_VALIDO</name></member>
+      <member refid="class_t_u_sala_1a3f00448af687a83a0ffcb108a9904fec" prot="private" virt="non-virtual"><scope>TUSala</scope><name>VALOR_VALIDO1</name></member>
+      <member refid="class_t_u_sala_1a000b1b5d2def4fe2f531b88a65fde352" prot="private" virt="non-virtual"><scope>TUSala</scope><name>VALOR_VALIDO2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

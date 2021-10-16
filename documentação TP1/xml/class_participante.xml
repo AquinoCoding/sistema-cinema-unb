@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_participante" kind="class" language="C++" prot="public">
+    <compoundname>Participante</compoundname>
+    <includes refid="entidades_8h" local="no">entidades.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_participante_1abfa2db12553060fde2c3b08a05383416" prot="private" static="no" mutable="no">
+        <type><ref refid="class_matricula" kindref="compound">Matricula</ref></type>
+        <definition>Matricula Participante::matricula</definition>
+        <argsstring></argsstring>
+        <name>matricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="12" column="19" bodyfile="entidades.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1a990220345a5c5716b69467486abafee1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_nome" kindref="compound">Nome</ref></type>
+        <definition>Nome Participante::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="13" column="14" bodyfile="entidades.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1ad9ebf7eab489f460108d441eada2c0ac" prot="private" static="no" mutable="no">
+        <type><ref refid="class_nome" kindref="compound">Nome</ref></type>
+        <definition>Nome Participante::sobrenome</definition>
+        <argsstring></argsstring>
+        <name>sobrenome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="14" column="14" bodyfile="entidades.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1abf65ec9e852ed6758b390d1feed9cf19" prot="private" static="no" mutable="no">
+        <type><ref refid="class_email" kindref="compound">Email</ref></type>
+        <definition>Email Participante::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="15" column="15" bodyfile="entidades.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1a22979ca203ce3c4502e8793d94f2180c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_telefone" kindref="compound">Telefone</ref></type>
+        <definition>Telefone Participante::telefone</definition>
+        <argsstring></argsstring>
+        <name>telefone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="16" column="18" bodyfile="entidades.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1aafa4ea6dc8cd046aad6fe3a9d16c20ec" prot="private" static="no" mutable="no">
+        <type><ref refid="class_senha" kindref="compound">Senha</ref></type>
+        <definition>Senha Participante::senha</definition>
+        <argsstring></argsstring>
+        <name>senha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="17" column="15" bodyfile="entidades.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_participante_1a8cb58c99be8b069d97225f37bc3bda24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_cargo" kindref="compound">Cargo</ref></type>
+        <definition>Cargo Participante::cargo</definition>
+        <argsstring></argsstring>
+        <name>cargo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="18" column="15" bodyfile="entidades.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_participante_1a82486ee047039b1e4b210b0f503a8862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setMatricula</definition>
+        <argsstring>(const Matricula &amp;valor)</argsstring>
+        <name>setMatricula</name>
+        <param>
+          <type>const <ref refid="class_matricula" kindref="compound">Matricula</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="20" column="14" bodyfile="entidades.h" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a45008c741ad0982362b667e500e75628" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getMatricula</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getMatricula</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Matícula. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="24" column="16" bodyfile="entidades.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1aea997e520fdd6978988200d5eab9c092" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setNome</definition>
+        <argsstring>(const Nome &amp;valor)</argsstring>
+        <name>setNome</name>
+        <param>
+          <type>const <ref refid="class_nome" kindref="compound">Nome</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo nome, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="30" column="14" bodyfile="entidades.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a6c6d207b5fb93c08e5db2f1804de4521" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getNome</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getNome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="34" column="16" bodyfile="entidades.h" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a2b8a6a7ad9daba071ed18b792c63ba24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setSobrenome</definition>
+        <argsstring>(const Nome &amp;valor)</argsstring>
+        <name>setSobrenome</name>
+        <param>
+          <type>const <ref refid="class_nome" kindref="compound">Nome</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo sobrenome, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="40" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1ae5662b68035c9e809bb1f6d04b67d590" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getSobrenome</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getSobrenome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Sobrenome. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="44" column="16" bodyfile="entidades.h" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a7e66bbe10da5a81f76856f9b331050aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setEmail</definition>
+        <argsstring>(const Email &amp;valor)</argsstring>
+        <name>setEmail</name>
+        <param>
+          <type>const <ref refid="class_email" kindref="compound">Email</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo email, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_email" kindref="compound">Email</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="50" column="14" bodyfile="entidades.h" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a4636d840a4fce89d208b314e0dfcff77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getEmail</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getEmail</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>E-mail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="54" column="16" bodyfile="entidades.h" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1aeaa513faa6731a27def3f70233a818a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setTelefone</definition>
+        <argsstring>(const Telefone &amp;valor)</argsstring>
+        <name>setTelefone</name>
+        <param>
+          <type>const <ref refid="class_telefone" kindref="compound">Telefone</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo telefone, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_telefone" kindref="compound">Telefone</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="60" column="14" bodyfile="entidades.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1ab8087671d1aa4f95de4d2caa7174604f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getTelefone</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getTelefone</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_telefone" kindref="compound">Telefone</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="64" column="16" bodyfile="entidades.h" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1a96e8eed3323cffcd31ea40df6db98587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setSenha</definition>
+        <argsstring>(const Senha &amp;valor)</argsstring>
+        <name>setSenha</name>
+        <param>
+          <type>const <ref refid="class_senha" kindref="compound">Senha</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo senha, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_senha" kindref="compound">Senha</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="70" column="14" bodyfile="entidades.h" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1ae447071446dd60b7c551fbe48558fefc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getSenha</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getSenha</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_senha" kindref="compound">Senha</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="74" column="16" bodyfile="entidades.h" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1af2f682976dc491170722a8acaef49f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Participante::setCargo</definition>
+        <argsstring>(const Cargo &amp;valor)</argsstring>
+        <name>setCargo</name>
+        <param>
+          <type>const <ref refid="class_cargo" kindref="compound">Cargo</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo cargo, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_cargo" kindref="compound">Cargo</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="80" column="14" bodyfile="entidades.h" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_participante_1ab8e3acff31dd0e3dac0cc00acdca8b37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Participante::getCargo</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getCargo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_cargo" kindref="compound">Cargo</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="84" column="16" bodyfile="entidades.h" bodystart="84" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>As classes das quais os atributos de entidade são instâncias, representam domínios. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Entidade <ref refid="class_participante" kindref="compound">Participante</ref>. </para>
+    </detaileddescription>
+    <location file="entidades.h" line="10" column="1" bodyfile="entidades.h" bodystart="10" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_participante_1a8cb58c99be8b069d97225f37bc3bda24" prot="private" virt="non-virtual"><scope>Participante</scope><name>cargo</name></member>
+      <member refid="class_participante_1abf65ec9e852ed6758b390d1feed9cf19" prot="private" virt="non-virtual"><scope>Participante</scope><name>email</name></member>
+      <member refid="class_participante_1ab8e3acff31dd0e3dac0cc00acdca8b37" prot="public" virt="non-virtual"><scope>Participante</scope><name>getCargo</name></member>
+      <member refid="class_participante_1a4636d840a4fce89d208b314e0dfcff77" prot="public" virt="non-virtual"><scope>Participante</scope><name>getEmail</name></member>
+      <member refid="class_participante_1a45008c741ad0982362b667e500e75628" prot="public" virt="non-virtual"><scope>Participante</scope><name>getMatricula</name></member>
+      <member refid="class_participante_1a6c6d207b5fb93c08e5db2f1804de4521" prot="public" virt="non-virtual"><scope>Participante</scope><name>getNome</name></member>
+      <member refid="class_participante_1ae447071446dd60b7c551fbe48558fefc" prot="public" virt="non-virtual"><scope>Participante</scope><name>getSenha</name></member>
+      <member refid="class_participante_1ae5662b68035c9e809bb1f6d04b67d590" prot="public" virt="non-virtual"><scope>Participante</scope><name>getSobrenome</name></member>
+      <member refid="class_participante_1ab8087671d1aa4f95de4d2caa7174604f" prot="public" virt="non-virtual"><scope>Participante</scope><name>getTelefone</name></member>
+      <member refid="class_participante_1abfa2db12553060fde2c3b08a05383416" prot="private" virt="non-virtual"><scope>Participante</scope><name>matricula</name></member>
+      <member refid="class_participante_1a990220345a5c5716b69467486abafee1" prot="private" virt="non-virtual"><scope>Participante</scope><name>nome</name></member>
+      <member refid="class_participante_1aafa4ea6dc8cd046aad6fe3a9d16c20ec" prot="private" virt="non-virtual"><scope>Participante</scope><name>senha</name></member>
+      <member refid="class_participante_1af2f682976dc491170722a8acaef49f2f" prot="public" virt="non-virtual"><scope>Participante</scope><name>setCargo</name></member>
+      <member refid="class_participante_1a7e66bbe10da5a81f76856f9b331050aa" prot="public" virt="non-virtual"><scope>Participante</scope><name>setEmail</name></member>
+      <member refid="class_participante_1a82486ee047039b1e4b210b0f503a8862" prot="public" virt="non-virtual"><scope>Participante</scope><name>setMatricula</name></member>
+      <member refid="class_participante_1aea997e520fdd6978988200d5eab9c092" prot="public" virt="non-virtual"><scope>Participante</scope><name>setNome</name></member>
+      <member refid="class_participante_1a96e8eed3323cffcd31ea40df6db98587" prot="public" virt="non-virtual"><scope>Participante</scope><name>setSenha</name></member>
+      <member refid="class_participante_1a2b8a6a7ad9daba071ed18b792c63ba24" prot="public" virt="non-virtual"><scope>Participante</scope><name>setSobrenome</name></member>
+      <member refid="class_participante_1aeaa513faa6731a27def3f70233a818a1" prot="public" virt="non-virtual"><scope>Participante</scope><name>setTelefone</name></member>
+      <member refid="class_participante_1ad9ebf7eab489f460108d441eada2c0ac" prot="private" virt="non-virtual"><scope>Participante</scope><name>sobrenome</name></member>
+      <member refid="class_participante_1a22979ca203ce3c4502e8793d94f2180c" prot="private" virt="non-virtual"><scope>Participante</scope><name>telefone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

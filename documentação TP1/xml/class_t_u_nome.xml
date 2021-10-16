@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_nome" kind="class" language="C++" prot="public">
+    <compoundname>TUNome</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_nome_1a21c53585527d2557609e7ad4b3c93ede" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUNome::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;Octavio.Silva&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="160" column="18" bodyfile="testeDominio.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_nome_1ab2aa9cda1dea4b8046374c3fc688bea3" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUNome::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;octavio  silva&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="161" column="18" bodyfile="testeDominio.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_nome_1ab927a85df6f9d50b3daa959d8d03e4df" prot="private" static="no" mutable="no">
+        <type><ref refid="class_nome" kindref="compound">Nome</ref> *</type>
+        <definition>Nome* TUNome::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="162" column="10" bodyfile="testeDominio.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_nome_1a73a5b28449569afacc6036bfd7956258" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUNome::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="163" column="9" bodyfile="testeDominio.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_nome_1af1d3faa5a4f6a302f96d193478f3013b" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUNome::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="170" column="22" bodyfile="testeDominio.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_nome_1a50bf8928bc5e773eaf15a2fb5eb2f065" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUNome::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="171" column="22" bodyfile="testeDominio.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_nome_1a0dcaf2c9638d4c3c33c4d850478fb8bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUNome::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="164" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_nome_1ac1d89a52ca70ca4d3ade1500a050d311" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUNome::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="165" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_nome_1afbaaf0c6d286b9154dee4e7f6d0d6b80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUNome::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="166" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_nome_1a14b5bdefaf97626dae748f869729bf4c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUNome::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="167" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_nome_1ae20734cb15f71890e57aff02a00f6313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUNome::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="172" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="158" column="1" bodyfile="testeDominio.h" bodystart="158" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_t_u_nome_1a73a5b28449569afacc6036bfd7956258" prot="private" virt="non-virtual"><scope>TUNome</scope><name>estado</name></member>
+      <member refid="class_t_u_nome_1a50bf8928bc5e773eaf15a2fb5eb2f065" prot="public" virt="non-virtual"><scope>TUNome</scope><name>FALHA</name></member>
+      <member refid="class_t_u_nome_1ab927a85df6f9d50b3daa959d8d03e4df" prot="private" virt="non-virtual"><scope>TUNome</scope><name>nome</name></member>
+      <member refid="class_t_u_nome_1ae20734cb15f71890e57aff02a00f6313" prot="public" virt="non-virtual"><scope>TUNome</scope><name>run</name></member>
+      <member refid="class_t_u_nome_1a0dcaf2c9638d4c3c33c4d850478fb8bb" prot="private" virt="non-virtual"><scope>TUNome</scope><name>setUp</name></member>
+      <member refid="class_t_u_nome_1af1d3faa5a4f6a302f96d193478f3013b" prot="public" virt="non-virtual"><scope>TUNome</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_nome_1ac1d89a52ca70ca4d3ade1500a050d311" prot="private" virt="non-virtual"><scope>TUNome</scope><name>tearDown</name></member>
+      <member refid="class_t_u_nome_1a14b5bdefaf97626dae748f869729bf4c" prot="private" virt="non-virtual"><scope>TUNome</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_nome_1afbaaf0c6d286b9154dee4e7f6d0d6b80" prot="private" virt="non-virtual"><scope>TUNome</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_nome_1ab2aa9cda1dea4b8046374c3fc688bea3" prot="private" virt="non-virtual"><scope>TUNome</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_nome_1a21c53585527d2557609e7ad4b3c93ede" prot="private" virt="non-virtual"><scope>TUNome</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

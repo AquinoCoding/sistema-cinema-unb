@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_classificacao" kind="class" language="C++" prot="public">
+    <compoundname>TUClassificacao</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_classificacao_1a8ab204eca8bbda0df6e01c2d1756dcd5" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUClassificacao::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;10&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="52" column="18" bodyfile="testeDominio.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_classificacao_1a2f51b59c5135d11411b325ed21f2574a" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUClassificacao::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;80&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="53" column="18" bodyfile="testeDominio.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_classificacao_1adb261305ad938ec10bf7ef108ac43a95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_classificacao" kindref="compound">Classificacao</ref> *</type>
+        <definition>Classificacao* TUClassificacao::classificacao</definition>
+        <argsstring></argsstring>
+        <name>classificacao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="54" column="19" bodyfile="testeDominio.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_classificacao_1af368de04c2d25066bb79e69c699bd0c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUClassificacao::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="55" column="9" bodyfile="testeDominio.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_classificacao_1a03fa6a0ff5a266928169add4717b0a29" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUClassificacao::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="62" column="22" bodyfile="testeDominio.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_classificacao_1af64e16fd32cf05f826abd9dc42d8fcb2" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUClassificacao::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="63" column="22" bodyfile="testeDominio.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_classificacao_1a46cbab649f98fdc7e11044ac3f3528b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUClassificacao::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_classificacao_1ad9121478b854dcfe9734cad095fe2733" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUClassificacao::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_classificacao_1a55fa64956885b658923d03ba09fd08fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUClassificacao::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="58" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_classificacao_1a75aba657c132fb8cb62026ba6ff6d872" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUClassificacao::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="59" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_classificacao_1aeb6b7bd75f6dafc1e4420466a989821e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUClassificacao::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="64" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio Classificação. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="50" column="1" bodyfile="testeDominio.h" bodystart="50" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_t_u_classificacao_1adb261305ad938ec10bf7ef108ac43a95" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>classificacao</name></member>
+      <member refid="class_t_u_classificacao_1af368de04c2d25066bb79e69c699bd0c9" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>estado</name></member>
+      <member refid="class_t_u_classificacao_1af64e16fd32cf05f826abd9dc42d8fcb2" prot="public" virt="non-virtual"><scope>TUClassificacao</scope><name>FALHA</name></member>
+      <member refid="class_t_u_classificacao_1aeb6b7bd75f6dafc1e4420466a989821e" prot="public" virt="non-virtual"><scope>TUClassificacao</scope><name>run</name></member>
+      <member refid="class_t_u_classificacao_1a46cbab649f98fdc7e11044ac3f3528b1" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>setUp</name></member>
+      <member refid="class_t_u_classificacao_1a03fa6a0ff5a266928169add4717b0a29" prot="public" virt="non-virtual"><scope>TUClassificacao</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_classificacao_1ad9121478b854dcfe9734cad095fe2733" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>tearDown</name></member>
+      <member refid="class_t_u_classificacao_1a75aba657c132fb8cb62026ba6ff6d872" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_classificacao_1a55fa64956885b658923d03ba09fd08fc" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_classificacao_1a2f51b59c5135d11411b325ed21f2574a" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_classificacao_1a8ab204eca8bbda0df6e01c2d1756dcd5" prot="private" virt="non-virtual"><scope>TUClassificacao</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

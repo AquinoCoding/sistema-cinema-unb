@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_cargo" kind="class" language="C++" prot="public">
+    <compoundname>Cargo</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cargo_1a5b0d637764fe6e17847589fc30591e4b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Cargo::cargo</definition>
+        <argsstring></argsstring>
+        <name>cargo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="46" column="16" bodyfile="dominios.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cargo_1ae978d6765d0cd78f5129cd2f00fdeb73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Cargo::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="47" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cargo_1a7c0baba5f16f762747f5f4114501b192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cargo::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cargo.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_cargo" kindref="compound">Cargo</ref> é inválido caso não seja palavra presente nas regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="54" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cargo_1aa9f165bde3107337762056687abf0a87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Cargo::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_cargo" kindref="compound">Cargo</ref> válido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="58" column="8" bodyfile="dominios.h" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_cargo" kindref="compound">Cargo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_cargo" kindref="compound">Cargo</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor é válido caso seja igual a um dos seguintes valores: ator, coreógrafo, figurinista, maquiador, sonoplasta ou iluminador. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="44" column="1" bodyfile="dominios.h" bodystart="44" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_cargo_1a5b0d637764fe6e17847589fc30591e4b" prot="private" virt="non-virtual"><scope>Cargo</scope><name>cargo</name></member>
+      <member refid="class_cargo_1aa9f165bde3107337762056687abf0a87" prot="public" virt="non-virtual"><scope>Cargo</scope><name>getValor</name></member>
+      <member refid="class_cargo_1a7c0baba5f16f762747f5f4114501b192" prot="public" virt="non-virtual"><scope>Cargo</scope><name>setValor</name></member>
+      <member refid="class_cargo_1ae978d6765d0cd78f5129cd2f00fdeb73" prot="private" virt="non-virtual"><scope>Cargo</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

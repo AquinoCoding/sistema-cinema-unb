@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_telefone" kind="class" language="C++" prot="public">
+    <compoundname>TUTelefone</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_telefone_1a813557dc68e9334e5a0e5a865b63eb87" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUTelefone::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;(61)-998713797&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="196" column="18" bodyfile="testeDominio.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_telefone_1a78817a9a951dfd434aa211ba1e544e5d" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUTelefone::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;(11) 400289223&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="197" column="18" bodyfile="testeDominio.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_telefone_1a26b10dce0fa6a8d31dd9e62369246f12" prot="private" static="no" mutable="no">
+        <type><ref refid="class_telefone" kindref="compound">Telefone</ref> *</type>
+        <definition>Telefone* TUTelefone::telefone</definition>
+        <argsstring></argsstring>
+        <name>telefone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="198" column="14" bodyfile="testeDominio.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_telefone_1a4c4396db66fd1beacb5de6277d9bb326" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUTelefone::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="199" column="9" bodyfile="testeDominio.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_telefone_1a26c0d033f5372652434fdcb5b054c16e" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUTelefone::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="206" column="22" bodyfile="testeDominio.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_telefone_1a6bfda7ef5af9266bd5ca1b246002f3c7" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUTelefone::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="207" column="22" bodyfile="testeDominio.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_telefone_1abd50876e26d8a3e267c988237cc1797c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTelefone::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="200" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_telefone_1abbe6b4d36f86cbfdafef63a28adaf29e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTelefone::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="201" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_telefone_1aace3a2414225d7972c4c0c315db53ab0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTelefone::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="202" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_telefone_1a049469c47f3cc50598dacaef7066e5b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUTelefone::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="203" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_telefone_1abdf98e48a737ab44ad59cc63f26d6788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUTelefone::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="208" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_telefone" kindref="compound">Telefone</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="194" column="1" bodyfile="testeDominio.h" bodystart="194" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_t_u_telefone_1a4c4396db66fd1beacb5de6277d9bb326" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>estado</name></member>
+      <member refid="class_t_u_telefone_1a6bfda7ef5af9266bd5ca1b246002f3c7" prot="public" virt="non-virtual"><scope>TUTelefone</scope><name>FALHA</name></member>
+      <member refid="class_t_u_telefone_1abdf98e48a737ab44ad59cc63f26d6788" prot="public" virt="non-virtual"><scope>TUTelefone</scope><name>run</name></member>
+      <member refid="class_t_u_telefone_1abd50876e26d8a3e267c988237cc1797c" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>setUp</name></member>
+      <member refid="class_t_u_telefone_1a26c0d033f5372652434fdcb5b054c16e" prot="public" virt="non-virtual"><scope>TUTelefone</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_telefone_1abbe6b4d36f86cbfdafef63a28adaf29e" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>tearDown</name></member>
+      <member refid="class_t_u_telefone_1a26b10dce0fa6a8d31dd9e62369246f12" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>telefone</name></member>
+      <member refid="class_t_u_telefone_1a049469c47f3cc50598dacaef7066e5b3" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_telefone_1aace3a2414225d7972c4c0c315db53ab0" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_telefone_1a78817a9a951dfd434aa211ba1e544e5d" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_telefone_1a813557dc68e9334e5a0e5a865b63eb87" prot="private" virt="non-virtual"><scope>TUTelefone</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

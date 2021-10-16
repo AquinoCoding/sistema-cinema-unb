@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1630023460 source:/home/octavio/UnB/TP1/Trabalho 1 - TP1/entidades.cpp
+	"entidades.h"
+
+1630027511 /home/octavio/UnB/TP1/Trabalho 1 - TP1/entidades.h
+	"dominios.h"
+
+1630027475 /home/octavio/UnB/TP1/Trabalho 1 - TP1/dominios.h
+	<stdexcept>
+
+1630023300 source:/home/octavio/UnB/TP1/Trabalho 1 - TP1/main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"testeDominio.h"
+	"testeEntidade.h"
+
+1630027545 /home/octavio/UnB/TP1/Trabalho 1 - TP1/testeDominio.h
+	"dominios.h"
+	"entidades.h"
+
+1630027559 /home/octavio/UnB/TP1/Trabalho 1 - TP1/testeEntidade.h
+	"dominios.h"
+	"entidades.h"
+
+1630023547 source:/home/octavio/UnB/TP1/Trabalho 1 - TP1/testeDominio.cpp
+	"testeDominio.h"
+
+1630023658 source:/home/octavio/UnB/TP1/Trabalho 1 - TP1/testeEntidade.cpp
+	"testeEntidade.h"
+
+1630023738 source:/home/octavio/UnB/TP1/Trabalho 1 - TP1/dominios.cpp
+	"dominios.h"
+	<iostream>
+	<stdio.h>
+	<string>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+
+1630023738 source:/home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/dominios.cpp
+	"dominios.h"
+	<iostream>
+	<stdio.h>
+	<string>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+
+1630027476 /home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/dominios.h
+	<stdexcept>
+
+1630023460 source:/home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/entidades.cpp
+	"entidades.h"
+
+1630027512 /home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/entidades.h
+	"dominios.h"
+
+1630023300 source:/home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"testeDominio.h"
+	"testeEntidade.h"
+
+1630027546 /home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/testeDominio.h
+	"dominios.h"
+	"entidades.h"
+
+1630027560 /home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/testeEntidade.h
+	"dominios.h"
+	"entidades.h"
+
+1630023548 source:/home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/testeDominio.cpp
+	"testeDominio.h"
+
+1630023658 source:/home/iahobuk/Documentos/TrabalhoTP1/Trabalho 1 - TP1/testeEntidade.cpp
+	"testeEntidade.h"
+

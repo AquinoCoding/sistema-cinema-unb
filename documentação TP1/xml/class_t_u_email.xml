@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_email" kind="class" language="C++" prot="public">
+    <compoundname>TUEmail</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_email_1a8b76dac50d32556ae8ee814663afbd38" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUEmail::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;neymarJr1234@aluno.unb.br&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="106" column="18" bodyfile="testeDominio.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_email_1abbca88edeba954054fc4e9cf02ecad1e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUEmail::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;neymarJr1234..@aluno.unb.br&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="107" column="18" bodyfile="testeDominio.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_email_1ad1f8492c97e7487e8d40fa1ec142f985" prot="private" static="no" mutable="no">
+        <type><ref refid="class_email" kindref="compound">Email</ref> *</type>
+        <definition>Email* TUEmail::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="108" column="11" bodyfile="testeDominio.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_email_1a31a56056a53cee84af861846c0c2beb6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUEmail::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="109" column="9" bodyfile="testeDominio.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_email_1a8b39fe0050c65de0c2968f4c4e164dbc" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUEmail::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="116" column="22" bodyfile="testeDominio.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_email_1af85d3036fdfc515f28636f9e5e60a98d" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUEmail::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="117" column="22" bodyfile="testeDominio.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_email_1a936ec1e46b227a5ff7f142a674a63865" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUEmail::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="110" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_email_1a3f22ed133358ef1ee1716df3a259029d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUEmail::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="111" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_email_1ad036a22630678aa7715e43af039ad1cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUEmail::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="112" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_email_1a87db412ba8223bfd99b783bb065c2b70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUEmail::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="113" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_email_1a8d43b68b8b80ada3b28d72d35df9a34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUEmail::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="118" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio E-mail. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="104" column="1" bodyfile="testeDominio.h" bodystart="104" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_t_u_email_1ad1f8492c97e7487e8d40fa1ec142f985" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>email</name></member>
+      <member refid="class_t_u_email_1a31a56056a53cee84af861846c0c2beb6" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>estado</name></member>
+      <member refid="class_t_u_email_1af85d3036fdfc515f28636f9e5e60a98d" prot="public" virt="non-virtual"><scope>TUEmail</scope><name>FALHA</name></member>
+      <member refid="class_t_u_email_1a8d43b68b8b80ada3b28d72d35df9a34f" prot="public" virt="non-virtual"><scope>TUEmail</scope><name>run</name></member>
+      <member refid="class_t_u_email_1a936ec1e46b227a5ff7f142a674a63865" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>setUp</name></member>
+      <member refid="class_t_u_email_1a8b39fe0050c65de0c2968f4c4e164dbc" prot="public" virt="non-virtual"><scope>TUEmail</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_email_1a3f22ed133358ef1ee1716df3a259029d" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>tearDown</name></member>
+      <member refid="class_t_u_email_1a87db412ba8223bfd99b783bb065c2b70" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_email_1ad036a22630678aa7715e43af039ad1cb" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_email_1abbca88edeba954054fc4e9cf02ecad1e" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_email_1a8b76dac50d32556ae8ee814663afbd38" prot="private" virt="non-virtual"><scope>TUEmail</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

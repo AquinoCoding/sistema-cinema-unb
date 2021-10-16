@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_cargo" kind="class" language="C++" prot="public">
+    <compoundname>TUCargo</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_cargo_1ade4d31eb6d40591d2c188ad5274eeae5" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUCargo::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>=  &quot;ator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="34" column="18" bodyfile="testeDominio.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_cargo_1ac28433aafe93369e5e74127b84efced4" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUCargo::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;Atores&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="35" column="18" bodyfile="testeDominio.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_cargo_1a84b6e55630ac6789dcdb71319343026a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_cargo" kindref="compound">Cargo</ref> *</type>
+        <definition>Cargo* TUCargo::cargo</definition>
+        <argsstring></argsstring>
+        <name>cargo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="36" column="11" bodyfile="testeDominio.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_cargo_1a48fd917909619aa838f91944569a104c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUCargo::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="37" column="9" bodyfile="testeDominio.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_cargo_1ac57310556c785f4b45e28419656f5071" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCargo::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="44" column="22" bodyfile="testeDominio.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_cargo_1a211c0d9eb86c9a76b3992328fef1939b" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCargo::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="45" column="22" bodyfile="testeDominio.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_cargo_1a6b475d913d2576582c601177a991fb82" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCargo::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="38" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_cargo_1aa146f0086f8e9f397e15838866d15569" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCargo::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_cargo_1a26d502977ff9748c01160abdd2a713a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCargo::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_cargo_1a6ba02aae8e76bc6a1c411482f57ad2aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCargo::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="41" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_cargo_1a66aa9218bf445745728c0203cd1fdff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUCargo::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="46" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_cargo" kindref="compound">Cargo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="32" column="1" bodyfile="testeDominio.h" bodystart="32" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_t_u_cargo_1a84b6e55630ac6789dcdb71319343026a" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>cargo</name></member>
+      <member refid="class_t_u_cargo_1a48fd917909619aa838f91944569a104c" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>estado</name></member>
+      <member refid="class_t_u_cargo_1a211c0d9eb86c9a76b3992328fef1939b" prot="public" virt="non-virtual"><scope>TUCargo</scope><name>FALHA</name></member>
+      <member refid="class_t_u_cargo_1a66aa9218bf445745728c0203cd1fdff1" prot="public" virt="non-virtual"><scope>TUCargo</scope><name>run</name></member>
+      <member refid="class_t_u_cargo_1a6b475d913d2576582c601177a991fb82" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>setUp</name></member>
+      <member refid="class_t_u_cargo_1ac57310556c785f4b45e28419656f5071" prot="public" virt="non-virtual"><scope>TUCargo</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_cargo_1aa146f0086f8e9f397e15838866d15569" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>tearDown</name></member>
+      <member refid="class_t_u_cargo_1a6ba02aae8e76bc6a1c411482f57ad2aa" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_cargo_1a26d502977ff9748c01160abdd2a713a9" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_cargo_1ac28433aafe93369e5e74127b84efced4" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_cargo_1ade4d31eb6d40591d2c188ad5274eeae5" prot="private" virt="non-virtual"><scope>TUCargo</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

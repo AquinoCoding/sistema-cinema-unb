@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_nome" kind="class" language="C++" prot="public">
+    <compoundname>Nome</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_nome_1ac3f8577d2bfac039271cc13c1c570df8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Nome::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="250" column="16" bodyfile="dominios.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_nome_1ac7288ba646f6b5245eb1f2d47604ca34" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Nome::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="251" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_nome_1aaad6a1ad8718cce8dde090a435c3cd81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Nome::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_nome" kindref="compound">Nome</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>com 5 a 20 caracteres.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inválido caso nome fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="258" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_nome_1ac8881234a0e2d0ddff4fb689ceb256eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Nome::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_nome" kindref="compound">Nome</ref> válido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="262" column="16" bodyfile="dominios.h" bodystart="262" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_nome" kindref="compound">Nome</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor válido deve conter de 5 a 20 caracteres, sendo letras maiúsculas ou minúsculas de A a Z.</para>
+</listitem><listitem><para>Ponto (.) deve ser precedido por letra.</para>
+</listitem><listitem><para>Pode conter espaço em branco, porém não podem ocorrer espaços em sequência.</para>
+</listitem><listitem><para>Primeira letra de cada termo deve ser maiúscula (A a Z). </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="248" column="1" bodyfile="dominios.h" bodystart="248" bodyend="265"/>
+    <listofallmembers>
+      <member refid="class_nome_1ac8881234a0e2d0ddff4fb689ceb256eb" prot="public" virt="non-virtual"><scope>Nome</scope><name>getValor</name></member>
+      <member refid="class_nome_1ac3f8577d2bfac039271cc13c1c570df8" prot="private" virt="non-virtual"><scope>Nome</scope><name>nome</name></member>
+      <member refid="class_nome_1aaad6a1ad8718cce8dde090a435c3cd81" prot="public" virt="non-virtual"><scope>Nome</scope><name>setValor</name></member>
+      <member refid="class_nome_1ac7288ba646f6b5245eb1f2d47604ca34" prot="private" virt="non-virtual"><scope>Nome</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

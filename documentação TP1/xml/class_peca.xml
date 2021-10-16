@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_peca" kind="class" language="C++" prot="public">
+    <compoundname>Peca</compoundname>
+    <includes refid="entidades_8h" local="no">entidades.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_peca_1ae4b9894fe7b9e9c1cde325d86a9e6f9b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_codigo" kindref="compound">Codigo</ref></type>
+        <definition>Codigo Peca::identificador</definition>
+        <argsstring></argsstring>
+        <name>identificador</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="111" column="16" bodyfile="entidades.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_peca_1aadaa889c063ce8d6043091ded284971e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_nome" kindref="compound">Nome</ref></type>
+        <definition>Nome Peca::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="112" column="14" bodyfile="entidades.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_peca_1a260cf2cb45cde96e377779aa0a2dc8b1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tipo" kindref="compound">Tipo</ref></type>
+        <definition>Tipo Peca::tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="113" column="14" bodyfile="entidades.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_peca_1a6fbbcd013aa4b891a13045d5baacfead" prot="private" static="no" mutable="no">
+        <type><ref refid="class_classificacao" kindref="compound">Classificacao</ref></type>
+        <definition>Classificacao Peca::classificacao</definition>
+        <argsstring></argsstring>
+        <name>classificacao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="114" column="23" bodyfile="entidades.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_peca_1ab1395cfdda59c8c12227d2c5c662db05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Peca::setIdcodigo</definition>
+        <argsstring>(const Codigo &amp;valor)</argsstring>
+        <name>setIdcodigo</name>
+        <param>
+          <type>const <ref refid="class_codigo" kindref="compound">Codigo</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo código, no contexto da classe Peça, é instância da classe Código. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="120" column="14" bodyfile="entidades.h" bodystart="159" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1aed1739e7347fd9e084a01bf415f6867c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Peca::getIdcodigo</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getIdcodigo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Identificador do código. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="124" column="16" bodyfile="entidades.h" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1a09525a6dee3c8d4f0a1000e4c1d18551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Peca::setNome</definition>
+        <argsstring>(const Nome &amp;valor)</argsstring>
+        <name>setNome</name>
+        <param>
+          <type>const <ref refid="class_nome" kindref="compound">Nome</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo nome, no contexto da classe <ref refid="class_participante" kindref="compound">Participante</ref>, é instância da classe <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="130" column="14" bodyfile="entidades.h" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1ab05eb28476f0f8e8928e178ca1694943" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Peca::getNome</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getNome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="134" column="16" bodyfile="entidades.h" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1a54364628e9979467ffe21a4eba016762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Peca::setTipo</definition>
+        <argsstring>(const Tipo &amp;valor)</argsstring>
+        <name>setTipo</name>
+        <param>
+          <type>const <ref refid="class_tipo" kindref="compound">Tipo</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo tipo, no contexto da classe Peça, é instância da classe <ref refid="class_tipo" kindref="compound">Tipo</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="140" column="14" bodyfile="entidades.h" bodystart="165" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1a7af7522a71bf55103816e6a5a9a678a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Peca::getTipo</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getTipo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_tipo" kindref="compound">Tipo</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="144" column="16" bodyfile="entidades.h" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1a82d6cb1676ff7061afd634bd7fc3b6aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Peca::setClassificacao</definition>
+        <argsstring>(const Classificacao &amp;valor)</argsstring>
+        <name>setClassificacao</name>
+        <param>
+          <type>const <ref refid="class_classificacao" kindref="compound">Classificacao</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo classificacao, no contexto da classe Peça, é instância da classe Classificação. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="150" column="14" bodyfile="entidades.h" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_peca_1a4717d2198d3286e3ee63c93edb549477" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Peca::getClassificacao</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getClassificacao</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Classificação. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="154" column="16" bodyfile="entidades.h" bodystart="154" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Entidade Peça. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="entidades.h" line="109" column="1" bodyfile="entidades.h" bodystart="109" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_peca_1a6fbbcd013aa4b891a13045d5baacfead" prot="private" virt="non-virtual"><scope>Peca</scope><name>classificacao</name></member>
+      <member refid="class_peca_1a4717d2198d3286e3ee63c93edb549477" prot="public" virt="non-virtual"><scope>Peca</scope><name>getClassificacao</name></member>
+      <member refid="class_peca_1aed1739e7347fd9e084a01bf415f6867c" prot="public" virt="non-virtual"><scope>Peca</scope><name>getIdcodigo</name></member>
+      <member refid="class_peca_1ab05eb28476f0f8e8928e178ca1694943" prot="public" virt="non-virtual"><scope>Peca</scope><name>getNome</name></member>
+      <member refid="class_peca_1a7af7522a71bf55103816e6a5a9a678a9" prot="public" virt="non-virtual"><scope>Peca</scope><name>getTipo</name></member>
+      <member refid="class_peca_1ae4b9894fe7b9e9c1cde325d86a9e6f9b" prot="private" virt="non-virtual"><scope>Peca</scope><name>identificador</name></member>
+      <member refid="class_peca_1aadaa889c063ce8d6043091ded284971e" prot="private" virt="non-virtual"><scope>Peca</scope><name>nome</name></member>
+      <member refid="class_peca_1a82d6cb1676ff7061afd634bd7fc3b6aa" prot="public" virt="non-virtual"><scope>Peca</scope><name>setClassificacao</name></member>
+      <member refid="class_peca_1ab1395cfdda59c8c12227d2c5c662db05" prot="public" virt="non-virtual"><scope>Peca</scope><name>setIdcodigo</name></member>
+      <member refid="class_peca_1a09525a6dee3c8d4f0a1000e4c1d18551" prot="public" virt="non-virtual"><scope>Peca</scope><name>setNome</name></member>
+      <member refid="class_peca_1a54364628e9979467ffe21a4eba016762" prot="public" virt="non-virtual"><scope>Peca</scope><name>setTipo</name></member>
+      <member refid="class_peca_1a260cf2cb45cde96e377779aa0a2dc8b1" prot="private" virt="non-virtual"><scope>Peca</scope><name>tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

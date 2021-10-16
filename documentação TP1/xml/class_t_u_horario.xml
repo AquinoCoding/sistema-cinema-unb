@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_horario" kind="class" language="C++" prot="public">
+    <compoundname>TUHorario</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_horario_1ac17fa3dc6a7991ed4258ea2c0cd96766" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUHorario::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;10:15&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="124" column="18" bodyfile="testeDominio.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_horario_1ac07c1883119b8a0f1febde8d0040522f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUHorario::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;12:44&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="125" column="18" bodyfile="testeDominio.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_horario_1a89dda884512ad027370b2864b926014b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_horario" kindref="compound">Horario</ref> *</type>
+        <definition>Horario* TUHorario::horario</definition>
+        <argsstring></argsstring>
+        <name>horario</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="126" column="13" bodyfile="testeDominio.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_horario_1a51513afb884c43c00816e138e06ca0b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUHorario::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="127" column="9" bodyfile="testeDominio.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_horario_1a58974951411c48a2ef16b505b65ee991" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUHorario::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="134" column="22" bodyfile="testeDominio.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_horario_1a93d6fabcab04d0ac3bc695bbf2e4cf1b" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUHorario::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="135" column="22" bodyfile="testeDominio.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_horario_1a6a247be3fdcdd25b3368550b12eb66b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUHorario::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="128" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_horario_1a8b79ac212598c6cc2106ca56e61cfc05" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUHorario::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="129" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_horario_1af3198652a0405a8ff99fad561994ddbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUHorario::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="130" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_horario_1a962a836ff96157b11d6b4e280db1a312" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUHorario::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="131" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_horario_1ac6e790d002f6854f57a6a85f9a3c9eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUHorario::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="136" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio Horário. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="122" column="1" bodyfile="testeDominio.h" bodystart="122" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_t_u_horario_1a51513afb884c43c00816e138e06ca0b4" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>estado</name></member>
+      <member refid="class_t_u_horario_1a93d6fabcab04d0ac3bc695bbf2e4cf1b" prot="public" virt="non-virtual"><scope>TUHorario</scope><name>FALHA</name></member>
+      <member refid="class_t_u_horario_1a89dda884512ad027370b2864b926014b" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>horario</name></member>
+      <member refid="class_t_u_horario_1ac6e790d002f6854f57a6a85f9a3c9eeb" prot="public" virt="non-virtual"><scope>TUHorario</scope><name>run</name></member>
+      <member refid="class_t_u_horario_1a6a247be3fdcdd25b3368550b12eb66b3" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>setUp</name></member>
+      <member refid="class_t_u_horario_1a58974951411c48a2ef16b505b65ee991" prot="public" virt="non-virtual"><scope>TUHorario</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_horario_1a8b79ac212598c6cc2106ca56e61cfc05" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>tearDown</name></member>
+      <member refid="class_t_u_horario_1a962a836ff96157b11d6b4e280db1a312" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_horario_1af3198652a0405a8ff99fad561994ddbf" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_horario_1ac07c1883119b8a0f1febde8d0040522f" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_horario_1ac17fa3dc6a7991ed4258ea2c0cd96766" prot="private" virt="non-virtual"><scope>TUHorario</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_data" kind="class" language="C++" prot="public">
+    <compoundname>Data</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_data_1ae3e630247f60efbc69086933fefa933a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Data::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="130" column="16" bodyfile="dominios.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_data_1a490773498b1ce1437a969feeb868e276" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="131" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_data_1aee3a6598533a28a3f446c5f8ecb63c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>da data com dia mês e ano.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_data" kindref="compound">Data</ref> inválida caso o valor fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="138" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_data_1a2d040be2799c23a0a3f745613a70bb43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Data::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_data" kindref="compound">Data</ref> válida. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="142" column="16" bodyfile="dominios.h" bodystart="142" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_data" kindref="compound">Data</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_data" kindref="compound">Data</ref>: composta por dia, mês e ano.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor é válido caso contenha oito caracteres sendo: dia (dígitos de 01 a 31), mês (dígitos de 01 a 12) e ano (dígitos de 2000 a 9999). </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="128" column="1" bodyfile="dominios.h" bodystart="128" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_data_1ae3e630247f60efbc69086933fefa933a" prot="private" virt="non-virtual"><scope>Data</scope><name>data</name></member>
+      <member refid="class_data_1a2d040be2799c23a0a3f745613a70bb43" prot="public" virt="non-virtual"><scope>Data</scope><name>getValor</name></member>
+      <member refid="class_data_1aee3a6598533a28a3f446c5f8ecb63c0f" prot="public" virt="non-virtual"><scope>Data</scope><name>setValor</name></member>
+      <member refid="class_data_1a490773498b1ce1437a969feeb868e276" prot="private" virt="non-virtual"><scope>Data</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

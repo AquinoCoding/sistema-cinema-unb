@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_sala" kind="class" language="C++" prot="public">
+    <compoundname>Sala</compoundname>
+    <includes refid="entidades_8h" local="no">entidades.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sala_1a28dd56b57f593f0a1bb1f8d6debd8d4c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_codigo" kindref="compound">Codigo</ref></type>
+        <definition>Codigo Sala::identificador</definition>
+        <argsstring></argsstring>
+        <name>identificador</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="224" column="16" bodyfile="entidades.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sala_1a8a52e6ca6dabe6577c0416fc28fa05df" prot="private" static="no" mutable="no">
+        <type><ref refid="class_nome" kindref="compound">Nome</ref></type>
+        <definition>Nome Sala::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="225" column="14" bodyfile="entidades.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sala_1a5d64bd464748b1394174cad4188ca4bc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_capacidade" kindref="compound">Capacidade</ref></type>
+        <definition>Capacidade Sala::capacidade</definition>
+        <argsstring></argsstring>
+        <name>capacidade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="226" column="20" bodyfile="entidades.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sala_1aff5c7af285965ad550990f659bb38a33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sala::setIdcodigo</definition>
+        <argsstring>(const Codigo &amp;valor)</argsstring>
+        <name>setIdcodigo</name>
+        <param>
+          <type>const <ref refid="class_codigo" kindref="compound">Codigo</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo codigo, no contexto da classe <ref refid="class_sala" kindref="compound">Sala</ref>, é instância da classe <ref refid="class_codigo" kindref="compound">Codigo</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="231" column="14" bodyfile="entidades.h" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sala_1a6dd82ac90e186a58879c8e26d65c0be3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Sala::getIdcodigo</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getIdcodigo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Identificador do código sala. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="235" column="16" bodyfile="entidades.h" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sala_1a971fd26d3812cb842fee54a0f0b48a8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sala::setNome</definition>
+        <argsstring>(const Nome &amp;valor)</argsstring>
+        <name>setNome</name>
+        <param>
+          <type>const <ref refid="class_nome" kindref="compound">Nome</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo nome, no contexto da classe <ref refid="class_sala" kindref="compound">Sala</ref>, é instância da classe <ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="241" column="14" bodyfile="entidades.h" bodystart="264" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sala_1ab7ac4034f57aed11ef4a2d32e1fa367c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Sala::getNome</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getNome</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_nome" kindref="compound">Nome</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="245" column="16" bodyfile="entidades.h" bodystart="245" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sala_1a8de9a76ccbc39f01ff21de0ee3064823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sala::setCapacidade</definition>
+        <argsstring>(const Capacidade &amp;valor)</argsstring>
+        <name>setCapacidade</name>
+        <param>
+          <type>const <ref refid="class_capacidade" kindref="compound">Capacidade</ref> &amp;</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atributo capacidade, no contexto da classe <ref refid="class_sala" kindref="compound">Sala</ref>, é instância da classe <ref refid="class_capacidade" kindref="compound">Capacidade</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="251" column="14" bodyfile="entidades.h" bodystart="267" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sala_1a06301e49da161b9449ad9ebe9ab20d4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Sala::getCapacidade</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getCapacidade</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_capacidade" kindref="compound">Capacidade</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="entidades.h" line="255" column="15" bodyfile="entidades.h" bodystart="255" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Entidade <ref refid="class_sala" kindref="compound">Sala</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="entidades.h" line="222" column="1" bodyfile="entidades.h" bodystart="222" bodyend="259"/>
+    <listofallmembers>
+      <member refid="class_sala_1a5d64bd464748b1394174cad4188ca4bc" prot="private" virt="non-virtual"><scope>Sala</scope><name>capacidade</name></member>
+      <member refid="class_sala_1a06301e49da161b9449ad9ebe9ab20d4c" prot="public" virt="non-virtual"><scope>Sala</scope><name>getCapacidade</name></member>
+      <member refid="class_sala_1a6dd82ac90e186a58879c8e26d65c0be3" prot="public" virt="non-virtual"><scope>Sala</scope><name>getIdcodigo</name></member>
+      <member refid="class_sala_1ab7ac4034f57aed11ef4a2d32e1fa367c" prot="public" virt="non-virtual"><scope>Sala</scope><name>getNome</name></member>
+      <member refid="class_sala_1a28dd56b57f593f0a1bb1f8d6debd8d4c" prot="private" virt="non-virtual"><scope>Sala</scope><name>identificador</name></member>
+      <member refid="class_sala_1a8a52e6ca6dabe6577c0416fc28fa05df" prot="private" virt="non-virtual"><scope>Sala</scope><name>nome</name></member>
+      <member refid="class_sala_1a8de9a76ccbc39f01ff21de0ee3064823" prot="public" virt="non-virtual"><scope>Sala</scope><name>setCapacidade</name></member>
+      <member refid="class_sala_1aff5c7af285965ad550990f659bb38a33" prot="public" virt="non-virtual"><scope>Sala</scope><name>setIdcodigo</name></member>
+      <member refid="class_sala_1a971fd26d3812cb842fee54a0f0b48a8c" prot="public" virt="non-virtual"><scope>Sala</scope><name>setNome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

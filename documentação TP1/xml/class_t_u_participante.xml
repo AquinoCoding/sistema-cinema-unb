@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_participante" kind="class" language="C++" prot="public">
+    <compoundname>TUParticipante</compoundname>
+    <includes refid="teste_entidade_8h" local="no">testeEntidade.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_participante_1a3585e911bcdb6fd8da99328a1b8c57d4" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;12345&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="14" column="23" bodyfile="testeEntidade.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1ab3ad631d889f0f6129db955abbcdd277" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO1</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO1</name>
+        <initializer>= &quot;Joao Pereira&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="15" column="23" bodyfile="testeEntidade.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a503934ea85ff7c8b64bf964382e0205c" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO2</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO2</name>
+        <initializer>= &quot;roberto@gmail.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="16" column="23" bodyfile="testeEntidade.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a8236e210f8912ece964d5655d823e60e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO3</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO3</name>
+        <initializer>= &quot;(61)-999999999&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="17" column="23" bodyfile="testeEntidade.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1acdfc43d677de5255f42ce09b6ea37795" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO4</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO4</name>
+        <initializer>= &quot;OcTav1@!&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="18" column="23" bodyfile="testeEntidade.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a862ee3fa4f73f968ff2d521a9be36390" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUParticipante::VALOR_VALIDO5</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO5</name>
+        <initializer>= &quot;ator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="19" column="23" bodyfile="testeEntidade.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a95aa91b0f582f76a4f7e1e2c9535c1e7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_participante" kindref="compound">Participante</ref> *</type>
+        <definition>Participante* TUParticipante::participante</definition>
+        <argsstring></argsstring>
+        <name>participante</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="20" column="23" bodyfile="testeEntidade.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a638ea0f10187b619599346f299e6301a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUParticipante::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="21" column="14" bodyfile="testeEntidade.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_participante_1aefa921acc25ac750cf892fcc987cafec" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUParticipante::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="26" column="27" bodyfile="testeEntidade.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_participante_1a7d68d97f9ec0b883dc79ae5aa0957505" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUParticipante::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="27" column="27" bodyfile="testeEntidade.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_participante_1a5d5fbb16b5eec1e8a69722752b8d57aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUParticipante::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="22" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_participante_1ad1e7ac7a42b199a07ef25a44359aab6f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUParticipante::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="23" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_participante_1a0fd425c912a8025ab189aa232ef1c985" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUParticipante::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="24" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_participante_1a87f0ae9263577d53edfa6f9be690c4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUParticipante::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="28" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário da entidade participante. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A entidade <ref refid="class_participante" kindref="compound">Participante</ref> valida: matrícula, nome, sobrenome, e-mail, telefone, senha e cargo. </para>
+    </detaileddescription>
+    <location file="testeEntidade.h" line="12" column="1" bodyfile="testeEntidade.h" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_t_u_participante_1a638ea0f10187b619599346f299e6301a" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>estado</name></member>
+      <member refid="class_t_u_participante_1a7d68d97f9ec0b883dc79ae5aa0957505" prot="public" virt="non-virtual"><scope>TUParticipante</scope><name>FALHA</name></member>
+      <member refid="class_t_u_participante_1a95aa91b0f582f76a4f7e1e2c9535c1e7" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>participante</name></member>
+      <member refid="class_t_u_participante_1a87f0ae9263577d53edfa6f9be690c4a4" prot="public" virt="non-virtual"><scope>TUParticipante</scope><name>run</name></member>
+      <member refid="class_t_u_participante_1a5d5fbb16b5eec1e8a69722752b8d57aa" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>setUp</name></member>
+      <member refid="class_t_u_participante_1aefa921acc25ac750cf892fcc987cafec" prot="public" virt="non-virtual"><scope>TUParticipante</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_participante_1ad1e7ac7a42b199a07ef25a44359aab6f" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>tearDown</name></member>
+      <member refid="class_t_u_participante_1a0fd425c912a8025ab189aa232ef1c985" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_participante_1a3585e911bcdb6fd8da99328a1b8c57d4" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO</name></member>
+      <member refid="class_t_u_participante_1ab3ad631d889f0f6129db955abbcdd277" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO1</name></member>
+      <member refid="class_t_u_participante_1a503934ea85ff7c8b64bf964382e0205c" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO2</name></member>
+      <member refid="class_t_u_participante_1a8236e210f8912ece964d5655d823e60e" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO3</name></member>
+      <member refid="class_t_u_participante_1acdfc43d677de5255f42ce09b6ea37795" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO4</name></member>
+      <member refid="class_t_u_participante_1a862ee3fa4f73f968ff2d521a9be36390" prot="private" virt="non-virtual"><scope>TUParticipante</scope><name>VALOR_VALIDO5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

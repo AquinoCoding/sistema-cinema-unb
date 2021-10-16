@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_telefone" kind="class" language="C++" prot="public">
+    <compoundname>Telefone</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_telefone_1a5dc3515f0bfdda2139c0f44e7a2a1538" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Telefone::telefone</definition>
+        <argsstring></argsstring>
+        <name>telefone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="312" column="16" bodyfile="dominios.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_telefone_1a32743a4965d46d33d72cdcdd2c1f1180" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Telefone::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="313" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_telefone_1acda75eb982b4e867380983fb4661bd46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Telefone::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Número</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>de telefone com código de área.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inválido caso valor fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="320" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_telefone_1a8d9d6134cfb5ec929ab9b42d3be39f85" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Telefone::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_telefone" kindref="compound">Telefone</ref> com código de área. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="324" column="16" bodyfile="dominios.h" bodystart="324" bodyend="326"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_telefone" kindref="compound">Telefone</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_telefone" kindref="compound">Telefone</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor válido é composto por onze dígitos, sendo os dois primeiros correspondentes ao código de área.</para>
+</listitem><listitem><para>O código deve ser um dos seguintes: 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 24, 27, 28, 32, 33, 34, 35, 37, 38, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 53, 54, 55, 61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 73, 74, 75, 77, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 94, 95, 96, 97, 98, 99.</para>
+</listitem><listitem><para>Os nove últimos dígitos podem ser de 0 a 9.</para>
+</listitem><listitem><para>Não existe número de telefone 000000000. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="310" column="1" bodyfile="dominios.h" bodystart="310" bodyend="327"/>
+    <listofallmembers>
+      <member refid="class_telefone_1a8d9d6134cfb5ec929ab9b42d3be39f85" prot="public" virt="non-virtual"><scope>Telefone</scope><name>getValor</name></member>
+      <member refid="class_telefone_1acda75eb982b4e867380983fb4661bd46" prot="public" virt="non-virtual"><scope>Telefone</scope><name>setValor</name></member>
+      <member refid="class_telefone_1a5dc3515f0bfdda2139c0f44e7a2a1538" prot="private" virt="non-virtual"><scope>Telefone</scope><name>telefone</name></member>
+      <member refid="class_telefone_1a32743a4965d46d33d72cdcdd2c1f1180" prot="private" virt="non-virtual"><scope>Telefone</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

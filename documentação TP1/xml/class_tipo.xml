@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_tipo" kind="class" language="C++" prot="public">
+    <compoundname>Tipo</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tipo_1ab0018174fb2075cf4feefbf26176182a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Tipo::tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="340" column="16" bodyfile="dominios.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tipo_1ad2f461d5f04a1d5d4f254037fb2406f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Tipo::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="341" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tipo_1a5a393b60d69853c719722dc9740eef9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tipo::setValor</definition>
+        <argsstring>(string tipo)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_tipo" kindref="compound">Tipo</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Inválido caso o tipo fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="348" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tipo_1a3a5cbab6488d323b75f24727c2a5c73e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tipo::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_tipo" kindref="compound">Tipo</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="352" column="16" bodyfile="dominios.h" bodystart="352" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_tipo" kindref="compound">Tipo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_tipo" kindref="compound">Tipo</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor válido deve uma das seguintes palavras: auto, comédia, drama, farsa, melodrama, monólogo, musical, ópera, revista. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="338" column="1" bodyfile="dominios.h" bodystart="338" bodyend="355"/>
+    <listofallmembers>
+      <member refid="class_tipo_1a3a5cbab6488d323b75f24727c2a5c73e" prot="public" virt="non-virtual"><scope>Tipo</scope><name>getValor</name></member>
+      <member refid="class_tipo_1a5a393b60d69853c719722dc9740eef9a" prot="public" virt="non-virtual"><scope>Tipo</scope><name>setValor</name></member>
+      <member refid="class_tipo_1ab0018174fb2075cf4feefbf26176182a" prot="private" virt="non-virtual"><scope>Tipo</scope><name>tipo</name></member>
+      <member refid="class_tipo_1ad2f461d5f04a1d5d4f254037fb2406f8" prot="private" virt="non-virtual"><scope>Tipo</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

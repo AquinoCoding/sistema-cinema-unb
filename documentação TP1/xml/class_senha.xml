@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_senha" kind="class" language="C++" prot="public">
+    <compoundname>Senha</compoundname>
+    <includes refid="dominios_8h" local="no">dominios.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_senha_1a259a9fdd2b1c37168aba468cb7a434fc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Senha::senha</definition>
+        <argsstring></argsstring>
+        <name>senha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="281" column="16" bodyfile="dominios.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_senha_1aaa7915a0345b20b757ffda90b55e5709" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Senha::validar</definition>
+        <argsstring>(string)</argsstring>
+        <name>validar</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="282" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_senha_1a379d90c214392ccb42aaf49e3d39e112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Senha::setValor</definition>
+        <argsstring>(string)</argsstring>
+        <name>setValor</name>
+        <param>
+          <type>string</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_senha" kindref="compound">Senha</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>com caracteres alfanuméricos e caracteres especiais.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>invalid_argument.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_senha" kindref="compound">Senha</ref> inválida caso valor fornecido não esteja de acordo com as regras de formato da classe. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="289" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_senha_1ae0b4d9dfac80da4dc9c4965a9648e6b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Senha::getValor</definition>
+        <argsstring>() const</argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_senha" kindref="compound">Senha</ref> alfanumérica com caractere especial. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dominios.h" line="293" column="16" bodyfile="dominios.h" bodystart="293" bodyend="295"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Domínio <ref refid="class_senha" kindref="compound">Senha</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classe <ref refid="class_senha" kindref="compound">Senha</ref>.</para>
+<para>Regras de formato:<itemizedlist>
+<listitem><para>Valor válido deve conter oito caracteres, sendo cada caractere letras maiúsculas ou minúsculas de A a Z, dígito de 0 a 9 ou caractere especial.</para>
+</listitem><listitem><para>Os caracteres especiais válidos são: ! @ # $ % &amp; ?</para>
+</listitem><listitem><para>Não podem existir caracteres repetidos.</para>
+</listitem><listitem><para>Deve existir pelo menos uma letra (maiúscula ou minúscula), um dígito ou caractere especial. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="dominios.h" line="279" column="1" bodyfile="dominios.h" bodystart="279" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_senha_1ae0b4d9dfac80da4dc9c4965a9648e6b5" prot="public" virt="non-virtual"><scope>Senha</scope><name>getValor</name></member>
+      <member refid="class_senha_1a259a9fdd2b1c37168aba468cb7a434fc" prot="private" virt="non-virtual"><scope>Senha</scope><name>senha</name></member>
+      <member refid="class_senha_1a379d90c214392ccb42aaf49e3d39e112" prot="public" virt="non-virtual"><scope>Senha</scope><name>setValor</name></member>
+      <member refid="class_senha_1aaa7915a0345b20b757ffda90b55e5709" prot="private" virt="non-virtual"><scope>Senha</scope><name>validar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

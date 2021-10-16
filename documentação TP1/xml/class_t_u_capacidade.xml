@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_capacidade" kind="class" language="C++" prot="public">
+    <compoundname>TUCapacidade</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_t_u_capacidade_1a54e1a2e640ddb32eef9b0ab77d5c6aa2" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCapacidade::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="16" column="22" bodyfile="testeDominio.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_capacidade_1a0a1f1f96a58b00bbfd0809222b4b45f8" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCapacidade::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="17" column="22" bodyfile="testeDominio.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_capacidade_1a2fd67e2077d5dcc67b560deb85f5ff32" prot="private" static="no" mutable="no">
+        <type><ref refid="class_capacidade" kindref="compound">Capacidade</ref> *</type>
+        <definition>Capacidade* TUCapacidade::capacidade</definition>
+        <argsstring></argsstring>
+        <name>capacidade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="18" column="16" bodyfile="testeDominio.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_capacidade_1a45a992684121bc1d19c6e68a0efe40ea" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUCapacidade::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="19" column="9" bodyfile="testeDominio.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_capacidade_1af16e1c49db2a6f7cc8ee1673aeec50f0" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCapacidade::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="26" column="22" bodyfile="testeDominio.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_capacidade_1a4045425a53d2962ed36f50dbe49d3bfa" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUCapacidade::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="27" column="22" bodyfile="testeDominio.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_capacidade_1a18bf24fb9aa2a21d6b86ff3aed5a889e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCapacidade::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="20" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_capacidade_1a68332456fd1207a184ea1da260152ceb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCapacidade::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="21" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_capacidade_1a8dc625384db591a25cadb4bd03ea6c50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCapacidade::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="22" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_capacidade_1a975d0908784e507728aba402c665a2cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUCapacidade::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="23" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_capacidade_1af657a9f98b932769afd3d2611f1122e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUCapacidade::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="28" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio <ref refid="class_capacidade" kindref="compound">Capacidade</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Cada teste pode retornar um caso de SUCESSO ou FALHA, a depender do teste realizado. </para>
+    </detaileddescription>
+    <location file="testeDominio.h" line="14" column="1" bodyfile="testeDominio.h" bodystart="14" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_t_u_capacidade_1a2fd67e2077d5dcc67b560deb85f5ff32" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>capacidade</name></member>
+      <member refid="class_t_u_capacidade_1a45a992684121bc1d19c6e68a0efe40ea" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>estado</name></member>
+      <member refid="class_t_u_capacidade_1a4045425a53d2962ed36f50dbe49d3bfa" prot="public" virt="non-virtual"><scope>TUCapacidade</scope><name>FALHA</name></member>
+      <member refid="class_t_u_capacidade_1af657a9f98b932769afd3d2611f1122e9" prot="public" virt="non-virtual"><scope>TUCapacidade</scope><name>run</name></member>
+      <member refid="class_t_u_capacidade_1a18bf24fb9aa2a21d6b86ff3aed5a889e" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>setUp</name></member>
+      <member refid="class_t_u_capacidade_1af16e1c49db2a6f7cc8ee1673aeec50f0" prot="public" virt="non-virtual"><scope>TUCapacidade</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_capacidade_1a68332456fd1207a184ea1da260152ceb" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>tearDown</name></member>
+      <member refid="class_t_u_capacidade_1a975d0908784e507728aba402c665a2cf" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_capacidade_1a8dc625384db591a25cadb4bd03ea6c50" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_capacidade_1a0a1f1f96a58b00bbfd0809222b4b45f8" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_capacidade_1a54e1a2e640ddb32eef9b0ab77d5c6aa2" prot="private" virt="non-virtual"><scope>TUCapacidade</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_sessao" kind="class" language="C++" prot="public">
+    <compoundname>TUSessao</compoundname>
+    <includes refid="teste_entidade_8h" local="no">testeEntidade.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_sessao_1afcfe7f54d19869a192c2a61150c7eb9c" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSessao::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;AA0000&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="55" column="23" bodyfile="testeEntidade.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sessao_1a74d6265d4893a44ccebcb2a99b0eb576" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSessao::VALOR_VALIDO1</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO1</name>
+        <initializer>= &quot;25/12/2021&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="56" column="23" bodyfile="testeEntidade.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sessao_1a2cc93fe74162d3bbff7cb2870c56a2b9" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUSessao::VALOR_VALIDO2</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO2</name>
+        <initializer>= &quot;23:45&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="57" column="23" bodyfile="testeEntidade.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sessao_1a7351a1384c0af3226c61faf12bf0b158" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sessao" kindref="compound">Sessao</ref> *</type>
+        <definition>Sessao* TUSessao::sessao</definition>
+        <argsstring></argsstring>
+        <name>sessao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="58" column="17" bodyfile="testeEntidade.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sessao_1a680ccebd0bc435850f0e83259b5c4c57" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUSessao::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="59" column="14" bodyfile="testeEntidade.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_sessao_1a03506f1cbd2dc9cb5ec98e0b44b651bf" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSessao::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="64" column="27" bodyfile="testeEntidade.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_sessao_1ad873b713232b6caeddea909743531689" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUSessao::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="65" column="27" bodyfile="testeEntidade.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_sessao_1aafcdb6df9038aa13d14f1ee62487ff3e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSessao::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="60" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_sessao_1af6ae8c714d5af9dae09e2e32e5ddcf38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSessao::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="61" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_sessao_1a1a0790d5362e1b9b11ff3de038631dcc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUSessao::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="62" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_sessao_1a8b7da304bdc9a78148ee32742b65ec31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUSessao::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeEntidade.h" line="66" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário da entidade Sessão. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A entidade Sessão valida: identificador, data e horário. </para>
+    </detaileddescription>
+    <location file="testeEntidade.h" line="53" column="1" bodyfile="testeEntidade.h" bodystart="53" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_t_u_sessao_1a680ccebd0bc435850f0e83259b5c4c57" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>estado</name></member>
+      <member refid="class_t_u_sessao_1ad873b713232b6caeddea909743531689" prot="public" virt="non-virtual"><scope>TUSessao</scope><name>FALHA</name></member>
+      <member refid="class_t_u_sessao_1a8b7da304bdc9a78148ee32742b65ec31" prot="public" virt="non-virtual"><scope>TUSessao</scope><name>run</name></member>
+      <member refid="class_t_u_sessao_1a7351a1384c0af3226c61faf12bf0b158" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>sessao</name></member>
+      <member refid="class_t_u_sessao_1aafcdb6df9038aa13d14f1ee62487ff3e" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>setUp</name></member>
+      <member refid="class_t_u_sessao_1a03506f1cbd2dc9cb5ec98e0b44b651bf" prot="public" virt="non-virtual"><scope>TUSessao</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_sessao_1af6ae8c714d5af9dae09e2e32e5ddcf38" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>tearDown</name></member>
+      <member refid="class_t_u_sessao_1a1a0790d5362e1b9b11ff3de038631dcc" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_sessao_1afcfe7f54d19869a192c2a61150c7eb9c" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>VALOR_VALIDO</name></member>
+      <member refid="class_t_u_sessao_1a74d6265d4893a44ccebcb2a99b0eb576" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>VALOR_VALIDO1</name></member>
+      <member refid="class_t_u_sessao_1a2cc93fe74162d3bbff7cb2870c56a2b9" prot="private" virt="non-virtual"><scope>TUSessao</scope><name>VALOR_VALIDO2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

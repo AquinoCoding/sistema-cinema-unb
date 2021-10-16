@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="pt-BR">
+  <compounddef id="class_t_u_matricula" kind="class" language="C++" prot="public">
+    <compoundname>TUMatricula</compoundname>
+    <includes refid="teste_dominio_8h" local="no">testeDominio.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_u_matricula_1ace940ce9d5f102eb3ab4215b8d421330" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUMatricula::VALOR_VALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_VALIDO</name>
+        <initializer>= &quot;12345&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="142" column="18" bodyfile="testeDominio.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_matricula_1a212f1bd0f151f47d73b1554f100810ee" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string TUMatricula::VALOR_INVALIDO</definition>
+        <argsstring></argsstring>
+        <name>VALOR_INVALIDO</name>
+        <initializer>= &quot;12245&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="143" column="18" bodyfile="testeDominio.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_matricula_1a2ff874b6030a95595e378d686d601455" prot="private" static="no" mutable="no">
+        <type><ref refid="class_matricula" kindref="compound">Matricula</ref> *</type>
+        <definition>Matricula* TUMatricula::matricula</definition>
+        <argsstring></argsstring>
+        <name>matricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="144" column="15" bodyfile="testeDominio.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_matricula_1a2818e825bddc3a85beeea54bcd5f85bd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TUMatricula::estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="145" column="9" bodyfile="testeDominio.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_t_u_matricula_1a2b3fc30669b5743c6431fb255ae511f2" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUMatricula::SUCESSO</definition>
+        <argsstring></argsstring>
+        <name>SUCESSO</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="152" column="22" bodyfile="testeDominio.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_u_matricula_1a81091ba8c092641c988750c957c82232" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int TUMatricula::FALHA</definition>
+        <argsstring></argsstring>
+        <name>FALHA</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="153" column="22" bodyfile="testeDominio.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_u_matricula_1ac33a865f5001ef63a496ec760b75ff5c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUMatricula::setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="146" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_matricula_1aaf83c73e1adad49c5c045e49514e8653" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUMatricula::tearDown</definition>
+        <argsstring>()</argsstring>
+        <name>tearDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="147" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_matricula_1a5f807343da4cf974b3c63e3aee78901c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUMatricula::testarCenarioSucesso</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioSucesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="148" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_u_matricula_1ab2b1404cc7156dffdf268973ddb45174" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TUMatricula::testarCenarioFalha</definition>
+        <argsstring>()</argsstring>
+        <name>testarCenarioFalha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="149" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_u_matricula_1a415f6c2f19be6cb4db4f4e61525e56c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TUMatricula::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="testeDominio.h" line="154" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Teste unitário do domínio Matrícula. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="testeDominio.h" line="140" column="1" bodyfile="testeDominio.h" bodystart="140" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_t_u_matricula_1a2818e825bddc3a85beeea54bcd5f85bd" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>estado</name></member>
+      <member refid="class_t_u_matricula_1a81091ba8c092641c988750c957c82232" prot="public" virt="non-virtual"><scope>TUMatricula</scope><name>FALHA</name></member>
+      <member refid="class_t_u_matricula_1a2ff874b6030a95595e378d686d601455" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>matricula</name></member>
+      <member refid="class_t_u_matricula_1a415f6c2f19be6cb4db4f4e61525e56c6" prot="public" virt="non-virtual"><scope>TUMatricula</scope><name>run</name></member>
+      <member refid="class_t_u_matricula_1ac33a865f5001ef63a496ec760b75ff5c" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>setUp</name></member>
+      <member refid="class_t_u_matricula_1a2b3fc30669b5743c6431fb255ae511f2" prot="public" virt="non-virtual"><scope>TUMatricula</scope><name>SUCESSO</name></member>
+      <member refid="class_t_u_matricula_1aaf83c73e1adad49c5c045e49514e8653" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>tearDown</name></member>
+      <member refid="class_t_u_matricula_1ab2b1404cc7156dffdf268973ddb45174" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>testarCenarioFalha</name></member>
+      <member refid="class_t_u_matricula_1a5f807343da4cf974b3c63e3aee78901c" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>testarCenarioSucesso</name></member>
+      <member refid="class_t_u_matricula_1a212f1bd0f151f47d73b1554f100810ee" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>VALOR_INVALIDO</name></member>
+      <member refid="class_t_u_matricula_1ace940ce9d5f102eb3ab4215b8d421330" prot="private" virt="non-virtual"><scope>TUMatricula</scope><name>VALOR_VALIDO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
